@@ -1,0 +1,142 @@
+Forman
+mono
+[core volume]2560.0
+[core pan]0.0
+[core chorus level]0.0
+[core chorus time]1024.0
+[core chorus bias]0.0
+[core chorus speed]0.0
+[core chorus phase]0.0
+[core chorus amp]8192.0
+[core delay balance]-7168.0
+[core delay feedback]8192.0
+[core delay time]8192.0
+[core delay highdamp]0.0
+[core X]0.0
+[core Y]0.0
+[core auto control]0.0
+[core auto speed]0.0
+[core pitch]0.0
+[core modulation]4608.0
+[core sens vibrato]256.0
+[core sens wahwah]0.0
+[lfo 1 speed]1792.0
+[lfo 1 wave]0.0
+[lfo 1 pulse]0.0
+[lfo 1 phase]0.0
+[lfo 1 sync]0.0
+[lfo 1 vector X]0.0
+[lfo 1 vector Y]0.0
+[lfo 1 vibrato]0.0
+[lfo 1 tremolo]0.0
+[lfo 1 wahwah]0.0
+[lfo 1 pan]0.0
+[lfo 2 speed]0.0
+[lfo 2 wave]0.0
+[lfo 2 pulse]0.0
+[lfo 2 phase]0.0
+[lfo 2 sync]0.0
+[lfo 2 vector X]0.0
+[lfo 2 vector Y]0.0
+[lfo 2 vibrato]0.0
+[lfo 2 tremolo]0.0
+[lfo 2 wahwah]0.0
+[lfo 2 pan]0.0
+[vco freq]0.0
+[vco amp]0.0
+[vco ratio]1.0
+[vco wave]1.0
+[vco sens adsr]0.0
+[noise amp]-16384.0
+[formant 1 freq]1698.0
+[formant 1 resonance]13312.0
+[formant 1 Q]8192.0
+[formant 1 amp]0.0
+[formant 2 freq]2688.0
+[formant 2 resonance]13824.0
+[formant 2 Q]13824.0
+[formant 2 amp]0.0
+[formant 3 freq]4443.0
+[formant 3 resonance]14848.0
+[formant 3 Q]15360.0
+[formant 3 amp]0.0
+[formant 4 freq]5120.0
+[formant 4 resonance]0.0
+[formant 4 Q]0.0
+[formant 4 amp]0.0
+[vector 1 freq A]0.0
+[vector 1 freq B]0.0
+[vector 1 freq C]0.0
+[vector 1 freq D]0.0
+[vector 1 resonance A]0.0
+[vector 1 resonance B]0.0
+[vector 1 resonance C]0.0
+[vector 1 resonance D]0.0
+[vector 1 Q A]0.0
+[vector 1 Q B]0.0
+[vector 1 Q C]0.0
+[vector 1 Q D]0.0
+[vector 2 freq A]0.0
+[vector 2 freq B]0.0
+[vector 2 freq C]0.0
+[vector 2 freq D]0.0
+[vector 2 resonance A]0.0
+[vector 2 resonance B]0.0
+[vector 2 resonance C]0.0
+[vector 2 resonance D]0.0
+[vector 2 Q A]0.0
+[vector 2 Q B]0.0
+[vector 2 Q C]0.0
+[vector 2 Q D]0.0
+[vector 3 freq A]0.0
+[vector 3 freq B]0.0
+[vector 3 freq C]0.0
+[vector 3 freq D]0.0
+[vector 3 resonance A]0.0
+[vector 3 resonance B]0.0
+[vector 3 resonance C]0.0
+[vector 3 resonance D]0.0
+[vector 3 Q A]0.0
+[vector 3 Q B]0.0
+[vector 3 Q C]0.0
+[vector 3 Q D]0.0
+[vector 4 freq A]0.0
+[vector 4 freq B]0.0
+[vector 4 freq C]0.0
+[vector 4 freq D]0.0
+[vector 4 resonance A]0.0
+[vector 4 resonance B]0.0
+[vector 4 resonance C]0.0
+[vector 4 resonance D]0.0
+[vector 4 Q A]0.0
+[vector 4 Q B]0.0
+[vector 4 Q C]0.0
+[vector 4 Q D]0.0
+[filter freq]5120.0
+[filter resonance]2048.0
+[filter amp]-16384.0
+[filter sens adsr]0.0
+[adsr amp attack]4864.0
+[adsr amp decay]0.0
+[adsr amp sustain]0.0
+[adsr amp release]7680.0
+[adsr freq time1]0.0
+[adsr freq time2]0.0
+[adsr freq time3]0.0
+[adsr freq time4]0.0
+[adsr freq level1]0.0
+[adsr freq level2]0.0
+[adsr freq level3]0.0
+[adsr freq level4]0.0
+[core sens velocity BP]12800.0
+[core sens velocity left]-64.0
+[core sens velocity right]0.0
+[portamento porta]128.0
+[portamento time]5120.0
+[portamento legato]0.0
+[portamento hold]0.0
+[portamento transpose]0.0
+[portamento mode]-128.0
+[vco sens pitch]512.0
+[filter sens pitch]0.0
+
