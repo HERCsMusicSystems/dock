@@ -18,6 +18,7 @@ program eclipse [mdi mda hctrl aa ma]
 end := [
 	[core : *interfaces] [eq [*outputs *] *interfaces] [LENGTH *outputs *number_of_outputs]
 	[SELECT
+		[[< 10 *number_of_outputs 30] [AUDIO_HARDWARE_SETTINGS [330 22050 2048 0 1]]]
 		[[< 3 *number_of_outputs 6] [AUDIO_HARDWARE_SETTINGS [330 32000 2048 0 -1]]]
 		[[< *number_of_outputs 4] [AUDIO_HARDWARE_SETTINGS [330 22050 4096 0 -1]]]
 	]
