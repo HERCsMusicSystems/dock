@@ -4,6 +4,7 @@ import lunar
 import abakos
 import forman
 import vonforman
+import doctor
 import arduino
 
 program eclipse [mdi mda hctrl aa ma]
@@ -29,6 +30,7 @@ end := [
 	;[AUDIO_HARDWARE_SETTINGS [330 32000 2048 1 -1]]
 	;[BuildVonForman 6 *vf : *]
 	[BuildForman 6 *vf : *]
+	[BuildDoctor 4]
 	[TRY [BuildFM4Panel * *vf vco]]
 	[big_spectroscope *radar] [*radar 600 400]
 	[CommandCentre commander]
