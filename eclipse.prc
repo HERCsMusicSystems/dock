@@ -17,6 +17,7 @@ program eclipse [mdi mda hctrl aa ma]
 ]
 
 end := [
+	[auto_atoms]
 	[core : *interfaces] [eq [*outputs *] *interfaces] [LENGTH *outputs *number_of_outputs]
 	[SELECT
 		[[< 29 *number_of_outputs 50] [AUDIO_HARDWARE_SETTINGS [330 32000 2048 30 -1]]]

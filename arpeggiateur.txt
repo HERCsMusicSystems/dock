@@ -1,0 +1,12 @@
+
+
+[parameter_block TR]
+
+[timingclock T] [T "trigger" TR]
+
+[res [Moons Doctor-1 * *CB : *] [sequencer d1 *CB]]
+[d1 "speed" 0] [d1 "timingclock" T] [d1 "trigger" TR]
+
+[d1 [[keyon 84 100] 18 [keyon 84 60] 6 [keyon 84 100] 24 24 24]]
+
+[exit]
