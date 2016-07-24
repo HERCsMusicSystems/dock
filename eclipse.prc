@@ -7,7 +7,7 @@ import vonforman
 import doctor
 import arduino
 
-program eclipse [mdi mda hctrl aa ma]
+program eclipse [mdi mda hctrl aa ma k1 k2 h1]
 
 [[ma : *command] [show *command] [income_midi : *command]]
 
@@ -15,6 +15,10 @@ program eclipse [mdi mda hctrl aa ma]
     [ard hctrl midi_monitor] [wait 1000] [ard_setup hctrl 0]
     [Moons *vf 0 : *] [BuildFM4Panel * *vf vco]
 ]
+
+[[k1 : *command] [write "Keystation: "] [midi_monitor : *command]]
+[[k2 : *command] [write "Transport:  "] [midi_monitor : *command]]
+[[h1 : *command] [write "HERCs Ctrl: "] [midi_monitor : *command]]
 
 end := [
 	[auto_atoms]
@@ -25,14 +29,14 @@ end := [
 		[[< 3 *number_of_outputs 6] [AUDIO_HARDWARE_SETTINGS [330 32000 2048 0 -1]]]
 		[[< *number_of_outputs 4] [AUDIO_HARDWARE_SETTINGS [330 44100 4096 0 -1]]]
 	]
-	[TRY [midi mdi midi_monitor]]
-	[TRY [midi mdi "/dev/snd/midiC3D0" midi_monitor]]
-	[TRY [midi mda "/dev/snd/midiC3D0" midi_monitor]]
-	[TRY [midi mda "/dev/snd/midiC4D0" midi_monitor]]
+	[TRY [midi mdi k1]]
+	[TRY [midi mdi "/dev/snd/midiC3D0" k1]]
+	[TRY [midi mda "/dev/snd/midiC3D0" k2]]
+	[TRY [midi mda "/dev/snd/midiC4D0" k2]]
 	[TRY [midi mdi "Keystation 88" income_midi]]
 	[TRY [midi mda "MIDIIN2 (Keystation 88)" midi_monitor]]
 	[TRY [wait 100] [ard hctrl income_midi] [wait 1000] [ard_setup hctrl 0]]
-	[TRY [midi hctrl "/dev/ttyACM0" midi_monitor]]
+	[TRY [midi hctrl "/dev/ttyACM0" h1]]
 	;[AUDIO_HARDWARE_SETTINGS [330 32000 2048 1 -1]]
 	;[BuildVonForman 6 *vf : *]
 	[BuildForman 6 *vf : *]
