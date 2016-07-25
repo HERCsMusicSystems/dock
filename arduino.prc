@@ -1,8 +1,11 @@
 
 import studio
 import control
+import lunar
 
-program arduino [ard ard_setup arduino read_system_exclusive]
+program arduino [ard ard_setup arduino read_system_exclusive
+					hctrl hrcs_ctrl variant v radio_light
+					]
 
 [[ard *ard *callback]
 	[create_atom *cb]
@@ -23,6 +26,15 @@ program arduino [ard ard_setup arduino read_system_exclusive]
 	[*ard 240 73 7 72 1 0xb *channel 8 74 247]
 	[*ard 240 73 7 72 1 0xb *channel 9 71 247]
 ]
+
+auto := [[parameter_block variant]]
+[[v *p] [*p *v] [show *v]]
+
+[[hrcs_ctrl programchange *channel *program] [<= 6 *program 11] / [mac *program 128 -768 *v] [variant *v] [radio_light *program]]
+[[hrcs_ctrl *command *channel : *parameters] [show "HERCs: " [*command : *parameters]]]
+
+[[radio_light *program] [operating_system "windows"] [FOR *i 6 11 1 [SELECT [[eq *i *program] [hctrl 176 *i 100]] [[hctrl 176 *i 0]]]]]
+[[radio_light *program] [FOR *i 6 11 1 [SELECT [[eq *i *program] [hctrl control 0 *i 100]] [[hctrl control 0 *i 0]]]]]
 
 [[arduino *com *callback 192 *channel] [*com *program] [*callback programchange *channel *program] /]
 [[arduino *com *callback 176 *channel] [*com *ctrl] [*com *value] [*callback control *channel *ctrl *value] /]

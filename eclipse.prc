@@ -7,7 +7,7 @@ import vonforman
 import doctor
 import arduino
 
-program eclipse [mdi mda hctrl aa ma k1 k2 h1]
+program eclipse [mdi mda aa ma k1 k2]
 
 [[ma : *command] [show *command] [income_midi : *command]]
 
@@ -18,7 +18,6 @@ program eclipse [mdi mda hctrl aa ma k1 k2 h1]
 
 [[k1 : *command] [write "Keystation: "] [midi_monitor : *command]]
 [[k2 : *command] [write "Transport:  "] [midi_monitor : *command]]
-[[h1 : *command] [write "HERCs Ctrl: "] [midi_monitor : *command]]
 
 end := [
 	[auto_atoms]
@@ -33,17 +32,18 @@ end := [
 	[TRY [midi mdi "/dev/snd/midiC3D0" k1]]
 	[TRY [midi mda "/dev/snd/midiC3D0" k2]]
 	[TRY [midi mda "/dev/snd/midiC4D0" k2]]
-	[TRY [midi mdi "Keystation 88" income_midi]]
-	[TRY [midi mda "MIDIIN2 (Keystation 88)" midi_monitor]]
-	[TRY [wait 100] [ard hctrl income_midi] [wait 1000] [ard_setup hctrl 0]]
-	[TRY [midi hctrl "/dev/ttyACM0" h1]]
+	[TRY [midi mdi "Keystation 88" k1]]
+	[TRY [midi mda "MIDIIN2 (Keystation 88)" k2]]
+	;[TRY [wait 100] [ard hctrl h1] [wait 1000] [ard_setup hctrl 0]]
+	[TRY [ard hctrl hrcs_ctrl]]
+	[TRY [midi hctrl "/dev/ttyACM0" hrcs_ctrl]]
 	;[AUDIO_HARDWARE_SETTINGS [330 32000 2048 1 -1]]
 	;[BuildVonForman 6 *vf : *]
 	[BuildForman 6 *vf : *]
 	[BuildDoctor 4]
 	[TRY [BuildFM4Panel * *vf vco]]
 	[big_spectroscope *radar 6] [*radar 600 400]
-	[CommandCentre commander]
+	;[CommandCentre commander]
 	[ConnectAllMoons *radar]
 	[gtk_command]
 	[TRY [reactor]]
