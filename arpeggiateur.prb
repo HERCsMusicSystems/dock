@@ -1,0 +1,58 @@
+
+
+[BuildAbakos 4]
+[BuildAbakos 4]
+
+[Restore Abakos-0 "Abakos/arpeggiateur_foundation.txt"]
+[Restore Abakos-1 "Abakos/arpeggiateur_top.txt"]
+
+
+[parameter_block trig]
+[parameter_block tp]
+
+[prolog_sequencer master] [master "trigger" trig] [master "speed" tp]
+
+[res [Moons Abakos-0 * *cb : *] [sequencer foundation *cb] [foundation "speed" 0] [foundation "timingclock" master]]
+[res [Moons Abakos-1 * *cb : *] [sequencer top_seq *cb] [top_seq "speed" 0] [top_seq "timingclock" master]]
+
+[top_seq "trigger" trig]
+[foundation "trigger" trig]
+
+[tp 224]
+
+[foundation [
+	[keyon [C/ -1] 100] 24 keyoff
+	[keyon [C/  0] 100] 24 keyoff
+	[keyon [C/ -1] 100] 24 keyoff
+	[keyon [C/ -1] 100] 24 keyoff
+	[keyon [Eb/ -1] 100] 24 keyoff
+	[keyon [C/ -1] 100] 24 keyoff
+	[keyon [C/ -1] 100] 24 keyoff
+	[keyon [C/ -1] 100] 24 keyoff
+]]
+
+[top_seq [
+	[keyon [Eb/ 2] 100] 12 keyoff 12
+	[keyon [D/  2] 100] 12 keyoff 12
+	[keyon [C/  2] 100] 12 keyoff 12 24
+	[keyon [F/  2] 100] 12 keyoff 12
+	[keyon [G/  2] 100] 12 keyoff 12
+	[keyon [Bb/ 2] 100] 12 keyoff 12 24
+	[keyon [C/  3] 100] 12 keyoff 12 24
+	[keyon [G/  2] 100] 12 keyoff 12 24
+	[keyon [Bb/ 2] 100] 12 keyoff 12
+	[keyon [C/  2] 100] 12 keyoff 12
+	[keyon [G/  2] 100] 12 keyoff 12 24
+	[keyon [Bb/ 2] 100] 12 keyoff 12
+	[keyon [C/  3] 100] 12 keyoff 12 24
+	[keyon [F/  2] 100] 12 keyoff 12
+	[keyon [Eb/ 2] 100] 12 keyoff 12
+	[keyon [F/  2] 100] 12 keyoff 12 24
+]]
+
+[CommandCentre commander]
+
+[CommanderHardwareAction]
+
+[exit]
+
