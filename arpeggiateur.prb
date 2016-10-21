@@ -32,22 +32,22 @@
 ]]
 
 [top_seq [
-	[keyon [Eb/ 2] 100] 12 keyoff 12
-	[keyon [D/  2] 100] 12 keyoff 12
-	[keyon [C/  2] 100] 12 keyoff 12 24
-	[keyon [F/  2] 100] 12 keyoff 12
-	[keyon [G/  2] 100] 12 keyoff 12
-	[keyon [Bb/ 2] 100] 12 keyoff 12 24
-	[keyon [C/  3] 100] 12 keyoff 12 24
-	[keyon [G/  2] 100] 12 keyoff 12 24
-	[keyon [Bb/ 2] 100] 12 keyoff 12
-	[keyon [C/  2] 100] 12 keyoff 12
-	[keyon [G/  2] 100] 12 keyoff 12 24
-	[keyon [Bb/ 2] 100] 12 keyoff 12
-	[keyon [C/  3] 100] 12 keyoff 12 24
-	[keyon [F/  2] 100] 12 keyoff 12
-	[keyon [Eb/ 2] 100] 12 keyoff 12
-	[keyon [F/  2] 100] 12 keyoff 12 24
+	[keyon [Eb/ 2] 100] 8 keyoff 16
+	[keyon [D/  2] 100] 8 keyoff 16
+	[keyon [C/  2] 100] 8 keyoff 16 24
+	[keyon [F/  2] 100] 8 keyoff 16
+	[keyon [G/  2] 100] 8 keyoff 16
+	[keyon [Bb/ 2] 100] 8 keyoff 16 24
+	[keyon [C/  3] 100] 8 keyoff 16 24
+	[keyon [G/  2] 100] 8 keyoff 16 24
+	[keyon [Bb/ 2] 100] 8 keyoff 16
+	[keyon [C/  2] 100] 8 keyoff 16
+	[keyon [G/  2] 100] 8 keyoff 16 24
+	[keyon [Bb/ 2] 100] 8 keyoff 16
+	[keyon [C/  3] 100] 8 keyoff 16 24 24
+	[keyon [F/  2] 100] 8 keyoff 16
+	[keyon [Eb/ 2] 100] 8 keyoff 16
+	[keyon [F/  2] 100] 8 keyoff 16 24 24
 ]]
 
 [CommandCentre commander]

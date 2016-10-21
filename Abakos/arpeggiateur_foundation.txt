@@ -12,6 +12,7 @@ poly
 [core chorus speed]-512.0
 [core chorus phase]3584.0
 [core chorus amp]8192.0
+[core delay gateway]16384.0
 [core delay balance]-2048.0
 [core delay feedback]1024.0
 [core delay time]6528.0
