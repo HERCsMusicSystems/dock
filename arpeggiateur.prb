@@ -18,7 +18,7 @@
 [top_seq "trigger" trig]
 [foundation "trigger" trig]
 
-[tp 224]
+[tp 229]
 
 [foundation [
 	[keyon [C/ -1] 100] 24 keyoff

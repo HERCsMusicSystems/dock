@@ -1,6 +1,6 @@
 Abakos
 poly
-[core volume]12800.0
+[core volume]8832.0
 [core pan]-8192.0
 [core pitch]0.0
 [core modulation]0.0
@@ -15,7 +15,7 @@ poly
 [core delay gateway]16384.0
 [core delay balance]128.0
 [core delay feedback]8192.0
-[core delay time]6528.0
+[core delay time]6368.0
 [core delay highdamp]0.0
 [arpeggiator speed]140.0
 [arpeggiator subdivision]24.0
@@ -44,7 +44,7 @@ poly
 [vco 2 sens adsr]0.0
 [vco ringmod]0.0
 [noise amp]-16384.0
-[filter freq]2560.0
+[filter freq]4224.0
 [filter resonance]0.0
 [filter amp]0.0
 [filter sens key]0.0
