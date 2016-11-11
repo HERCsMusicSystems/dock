@@ -1,0 +1,51 @@
+Doctor
+poly
+[core volume]12800.0
+[core pan]0.0
+[core pitch]0.0
+[core modulation]0.0
+[core chorus level]0.0
+[core chorus time]1024.0
+[core chorus bias]0.0
+[core chorus speed]0.0
+[core chorus phase]0.0
+[core chorus amp]8192.0
+[core delay gateway]16384.0
+[core delay balance]-5632.0
+[core delay feedback]0.0
+[core delay time]6368.0
+[core delay highdamp]0.0
+[lfo speed]1792.0
+[lfo wave]0.0
+[lfo pulse]0.0
+[lfo phase]0.0
+[lfo sync]0.0
+[lfo vibrato]0.0
+[lfo tremolo]0.0
+[lfo wahwah]0.0
+[lfo pan]0.0
+[vco freq]0.0
+[vco amp]0.0
+[vco ratio]1.0
+[vco index]0.0
+[filter freq]5120.0
+[filter resonance]0.0
+[filter amp]0.0
+[adsr attack]0.0
+[adsr decay]0.0
+[adsr sustain]0.0
+[adsr release]0.0
+[sens freq]0.0
+[sens index]16384.0
+[sens velocity BP]16256.0
+[sens velocity left]-64.0
+[sens velocity right]0.0
+[portamento porta]0.0
+[portamento time]0.0
+[portamento legato]0.0
+[portamento hold]0.0
+[portamento transpose]0.0
+[portamento mode]-128.0
+[sens pitch]512.0
+[sens modulation]256.0
+
