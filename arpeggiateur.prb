@@ -2,9 +2,11 @@
 
 [BuildAbakos 4]
 [BuildAbakos 4]
+[BuildDoctor 4]
 
 [Restore Abakos-0 "Abakos/arpeggiateur_foundation.txt"]
 [Restore Abakos-1 "Abakos/arpeggiateur_top.txt"]
+[Restore Doctor-2 "Doctor/arp_castanet.txt"]
 
 
 [parameter_block trig]
@@ -14,9 +16,11 @@
 
 [res [Moons Abakos-0 * *cb : *] [sequencer foundation *cb] [foundation "speed" 0] [foundation "timingclock" master]]
 [res [Moons Abakos-1 * *cb : *] [sequencer top_seq *cb] [top_seq "speed" 0] [top_seq "timingclock" master]]
+[res [Moons Doctor-2 * *cb : *] [sequencer castanet_seq *cb] [castanet_seq "speed" 0] [castanet_seq "timingclock" master]]
 
-[top_seq "trigger" trig]
 [foundation "trigger" trig]
+[top_seq "trigger" trig]
+[castanet_seq "trigger" trig]
 
 [tp 229]
 
@@ -48,6 +52,12 @@
 	[keyon [F/  2] 100] 8 keyoff 16
 	[keyon [Eb/ 2] 100] 8 keyoff 16
 	[keyon [F/  2] 100] 8 keyoff 16 24 24
+]]
+
+[castanet_seq [
+	[keyon [A 2] 100] 48
+	[keyon [A 2] 100] 48
+	48 48
 ]]
 
 [CommandCentre commander]
