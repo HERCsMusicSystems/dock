@@ -3,6 +3,7 @@
 [BuildAbakos 4]
 [BuildAbakos 4]
 [BuildDoctor 4]
+[BuildDoctor 4]
 
 [Restore Abakos-0 "Abakos/arpeggiateur_foundation.txt"]
 [Restore Abakos-1 "Abakos/arpeggiateur_top.txt"]
@@ -17,10 +18,12 @@
 [res [Moons Abakos-0 * *cb : *] [sequencer foundation *cb] [foundation "speed" 0] [foundation "timingclock" master]]
 [res [Moons Abakos-1 * *cb : *] [sequencer top_seq *cb] [top_seq "speed" 0] [top_seq "timingclock" master]]
 [res [Moons Doctor-2 * *cb : *] [sequencer castanet_seq *cb] [castanet_seq "speed" 0] [castanet_seq "timingclock" master]]
+[res [Moons Doctor-3 * *cb : *] [sequencer drum_seq *cb] [drum_seq "speed" 0] [drum_seq "timingclock" master]]
 
 [foundation "trigger" trig]
 [top_seq "trigger" trig]
 [castanet_seq "trigger" trig]
+[drum_seq "trigger" trig]
 
 [tp 229]
 
@@ -59,6 +62,21 @@
 	[keyon [A 2] 100] 48
 	48 48
 ]]
+
+[drum_seq [
+	[keyon [C 3] 100] 36 [keyon [C 3] 80] 12
+	[keyon [C 3] 100] 48
+	48 48
+	[keyon [C 3] 100] 36 [keyon [C 3] 80] 12
+	[keyon [C 3] 100] 48
+		24 [keyon [F 3] 100] 24
+	48
+]]
+
+[ARRAY track_amplitudes 16]
+[track_amplitudes 0 127]
+[FOR *i 1 15 1 [track_amplitudes *i 0] [income_midi control *i 11 0]]
+[[FUNCTION_KEY *ind] [show *ind] [track_amplitudes *ind : *v] [SELECT [[= *v 0] [= *new 127]] [[= *new 0]]] [track_amplitudes *ind *new] [income_midi control *ind 11 *new]]
 
 [CommandCentre commander]
 
