@@ -64,11 +64,11 @@
 ]]
 
 [drum_seq [
-	[keyon [C 3] 100] 36 [keyon [C 3] 80] 12
-	[keyon [C 3] 100] 48
+	[keyon [D 3] 100] 36 [keyon [D 3] 80] 12
+	[keyon [D 3] 100] 48
 	48 48
-	[keyon [C 3] 100] 36 [keyon [C 3] 80] 12
-	[keyon [C 3] 100] 48
+	[keyon [D 3] 100] 36 [keyon [D 3] 80] 12
+	[keyon [D 3] 100] 48
 		24 [keyon [F 3] 100] 24
 	48
 ]]
