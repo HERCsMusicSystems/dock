@@ -10,10 +10,10 @@ program setup [audio_setup midi_setup ctrl mdi1 mdi2 mdi3 setup close audio_clos
 [[audio_setup]
 	[core : *interfaces] [eq [*outputs *] *interfaces] [LENGTH *outputs *number_of_outputs]
 	[SELECT
-		[[< 29 *number_of_outputs 50] [AUDIO_HARDWARE_SETTINGS [330 32000 2048 30 -1]]]
-		[[< 10 *number_of_outputs 30] [AUDIO_HARDWARE_SETTINGS [330 22050 2048 0 -1]]]
-		[[< 3 *number_of_outputs 6] [AUDIO_HARDWARE_SETTINGS [330 32000 2048 0 -1]]]
-		[[< *number_of_outputs 4] [AUDIO_HARDWARE_SETTINGS [330 44100 4096 0 -1]]]
+		[[< 29 *number_of_outputs 50] [AUDIO_HARDWARE_SETTINGS [core 330 32000 2048 30 -1]]]
+		[[< 10 *number_of_outputs 30] [AUDIO_HARDWARE_SETTINGS [core 330 22050 2048 0 -1]]]
+		[[< 3 *number_of_outputs 6] [AUDIO_HARDWARE_SETTINGS [core 330 32000 2048 0 -1]]]
+		[[< *number_of_outputs 4] [AUDIO_HARDWARE_SETTINGS [core 330 44100 4096 0 -1]]]
 	]
 ]
 
