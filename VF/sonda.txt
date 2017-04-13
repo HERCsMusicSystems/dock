@@ -1,6 +1,4 @@
 VF
-[core X]0.0
-[core Y]0.0
 [core auto control]0.0
 [core auto speed]0.0
 [core pitch]0.0
@@ -47,8 +45,6 @@ VF
 [vco algo 3 5]0.0
 [vco algo 3 6]0.0
 [vco algo 4 5]0.0
-[vco algo 4 6]0.0
-[vco algo 5 6]0.0
 [vco 1 freq]0.0
 [vco 1 amp]0.0
 [vco 1 ratio]1.0
@@ -206,10 +202,6 @@ VF
 [vco 1 sens amp velocity BP]12800.0
 [vco 1 sens amp velocity left]0.0
 [vco 1 sens amp velocity right]0.0
-[vector amp 1 A]16384.0
-[vector amp 1 B]16384.0
-[vector amp 1 C]16384.0
-[vector amp 1 D]16384.0
 [vco 2 eg time1]0.0
 [vco 2 eg time2]0.0
 [vco 2 eg time3]0.0
@@ -231,10 +223,6 @@ VF
 [vco 2 sens amp velocity BP]12800.0
 [vco 2 sens amp velocity left]0.0
 [vco 2 sens amp velocity right]0.0
-[vector amp 2 A]16384.0
-[vector amp 2 B]16384.0
-[vector amp 2 C]16384.0
-[vector amp 2 D]16384.0
 [vco 3 eg time1]0.0
 [vco 3 eg time2]0.0
 [vco 3 eg time3]0.0
@@ -256,10 +244,6 @@ VF
 [vco 3 sens amp velocity BP]12800.0
 [vco 3 sens amp velocity left]0.0
 [vco 3 sens amp velocity right]0.0
-[vector amp 3 A]16384.0
-[vector amp 3 B]16384.0
-[vector amp 3 C]16384.0
-[vector amp 3 D]16384.0
 [vco 4 eg time1]0.0
 [vco 4 eg time2]0.0
 [vco 4 eg time3]0.0
@@ -281,10 +265,6 @@ VF
 [vco 4 sens amp velocity BP]12800.0
 [vco 4 sens amp velocity left]0.0
 [vco 4 sens amp velocity right]0.0
-[vector amp 4 A]16384.0
-[vector amp 4 B]16384.0
-[vector amp 4 C]16384.0
-[vector amp 4 D]16384.0
 [vco 5 eg time1]0.0
 [vco 5 eg time2]0.0
 [vco 5 eg time3]0.0
@@ -306,10 +286,6 @@ VF
 [vco 5 sens amp velocity BP]12800.0
 [vco 5 sens amp velocity left]0.0
 [vco 5 sens amp velocity right]0.0
-[vector amp 5 A]16384.0
-[vector amp 5 B]16384.0
-[vector amp 5 C]16384.0
-[vector amp 5 D]16384.0
 [vco 6 eg time1]0.0
 [vco 6 eg time2]0.0
 [vco 6 eg time3]0.0
@@ -331,10 +307,6 @@ VF
 [vco 6 sens amp velocity BP]12800.0
 [vco 6 sens amp velocity left]0.0
 [vco 6 sens amp velocity right]0.0
-[vector amp 6 A]16384.0
-[vector amp 6 B]16384.0
-[vector amp 6 C]16384.0
-[vector amp 6 D]16384.0
 [adsr amp attack]0.0
 [adsr amp decay]0.0
 [adsr amp sustain]0.0
