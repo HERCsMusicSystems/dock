@@ -1,8 +1,7 @@
 
 import lunar
-import arduino
 
-program setup [audio_setup midi_setup ctrl mdi1 mdi2 mdi3 setup close audio_close midi_close]
+program setup [audio_setup midi_setup ctrl hctrl mdi1 mdi2 mdi3 setup close audio_close midi_close action programs program_data]
 
 [[setup] [audio_setup] [midi_setup]]
 [[close] [midi_close] [audio_close]]
@@ -27,9 +26,25 @@ program setup [audio_setup midi_setup ctrl mdi1 mdi2 mdi3 setup close audio_clos
 	[TRY [midi mdi2 "/dev/snd/midiC4D0" ctrl]]
 	[TRY [midi mdi1 "Keystation 88" ctrl]]
 	[TRY [midi mdi2 "MIDIIN2 (Keystation 88)" ctrl]]
-	[TRY [ard mdi3 ctrl]]
-	[TRY [midi mdi3 "/dev/ttyACM0" ctrl]]
+	[TRY [midi mdi3 "/dev/ttyACM0" hctrl]]
+	[TRY [midicom mdi3 hctrl "COM3" 9600 8 0 0 1]]
 ]
+
+[[hctrl programchange 0 *program] [programs *program *v] [action *program *v] [TRY [mdi3 control 0 *program *v]]]
+[[hctrl : *command] [show *command]]
+
+auto := [[ARRAY program_data 128]]
+
+[[programs *ind *program]
+	[program_data *ind : *v]
+	[SELECT
+		[[= *v 127] [= *program 0]]
+		[[= *program 127]]
+	]
+	[program_data *ind *program]
+]
+
+private [program_data]
 
 end.
 

@@ -13,7 +13,6 @@ program harpermaster/terminator
 	[setup]
 	[prompt "TERMINATOR: "]
 	[BuildVonForman 66 4]
-	;[wave *waves "harpermaster/t1.wav" "harpermaster/t2.wav" "harpermaster/t3.wav" "harpermaster/t4.wav"] [BuildDoctor 4 Doctor-1 *dcb * *waves]
 	[BuildDoctor 6] [BuildDoctor 6]
 	[Restore 1 "Doctor/terminator_3.txt"]
 	[Restore 2 "Doctor/terminator_3.txt"]
@@ -42,9 +41,13 @@ program harpermaster/terminator
 	[CloseAllMoons]
 ]
 
-[[FUNCTION_KEY 1] [seq "trigger" 256]]
-[[FUNCTION_KEY 2] [seq "trigger" 0]]
+[[FUNCTION_KEY 1] [hctrl programchange 0 0]]
 [[FUNCTION_KEY : *x] [show *x]]
+
+[[action 0 0] [seq "trigger" 0]]
+[[action 0 127] [seq "trigger" 256]]
+
+[[action *program *data] [show [action *program *data]]]
 
 end := [[terminator_setup] [gtk_command] [terminator_close]] .
 
