@@ -386,27 +386,27 @@ poly
 [vco 1 sens freq lfo 2]0.0
 [vco 1 sens amp lfo 1]0.0
 [vco 1 sens amp lfo 2]0.0
-[vco 2 sens freq pitch]0.0
+[vco 2 sens freq pitch]512.0
 [vco 2 sens freq lfo 1]16384.0
 [vco 2 sens freq lfo 2]0.0
 [vco 2 sens amp lfo 1]0.0
 [vco 2 sens amp lfo 2]0.0
-[vco 3 sens freq pitch]0.0
+[vco 3 sens freq pitch]512.0
 [vco 3 sens freq lfo 1]16384.0
 [vco 3 sens freq lfo 2]0.0
 [vco 3 sens amp lfo 1]0.0
 [vco 3 sens amp lfo 2]0.0
-[vco 4 sens freq pitch]0.0
+[vco 4 sens freq pitch]512.0
 [vco 4 sens freq lfo 1]16384.0
 [vco 4 sens freq lfo 2]0.0
 [vco 4 sens amp lfo 1]0.0
 [vco 4 sens amp lfo 2]0.0
-[vco 5 sens freq pitch]0.0
+[vco 5 sens freq pitch]512.0
 [vco 5 sens freq lfo 1]16384.0
 [vco 5 sens freq lfo 2]0.0
 [vco 5 sens amp lfo 1]0.0
 [vco 5 sens amp lfo 2]0.0
-[vco 6 sens freq pitch]0.0
+[vco 6 sens freq pitch]512.0
 [vco 6 sens freq lfo 1]16384.0
 [vco 6 sens freq lfo 2]0.0
 [vco 6 sens amp lfo 1]0.0
