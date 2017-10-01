@@ -7,10 +7,19 @@ program setup [audio_setup midi_setup ctrl hctrl mdi1 mdi2 mdi3 setup close audi
 [[close] [midi_close] [audio_close]]
 
 [[audio_setup]
-	[core : *interfaces] [eq [*outputs *] *interfaces] [LENGTH *outputs *number_of_outputs]
+	[core : *interfaces] [eq [*outputs *] *interfaces]
 	[SELECT
-		[[< 29 *number_of_outputs 50] [AUDIO_HARDWARE_SETTINGS [core 330 32000 2048 30 -1]]]
-		[[< 10 *number_of_outputs 30] [AUDIO_HARDWARE_SETTINGS [core 330 22050 2048 0 -1]]]
+		[[AT 0 *index "Playback/recording through the PulseAudio sound server" *outputs] [AUDIO_HARDWARE_SETTINGS [core 330 22050 2048 *index -1]]]
+		[]
+	]
+	[AUDIO_HARDWARE_SETTINGS : *settings] [show *settings]
+]
+
+[[audio_setup]
+	[core : *interfaces] [eq [*outputs *] *interfaces] [LENGTH *outputs *number_of_outputs] [show *number_of_outputs]
+	[SELECT
+		[[< 31 *number_of_outputs 50] [AUDIO_HARDWARE_SETTINGS [core 330 32000 2048 30 -1]]]
+		[[< 10 *number_of_outputs 32] [AUDIO_HARDWARE_SETTINGS [core 330 22050 2048 0 -1]]]
 		[[< 3 *number_of_outputs 6] [AUDIO_HARDWARE_SETTINGS [core 330 32000 2048 0 -1]]]
 		[[< *number_of_outputs 4] [AUDIO_HARDWARE_SETTINGS [core 330 44100 4096 0 -1]]]
 	]
