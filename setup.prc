@@ -9,6 +9,7 @@ program setup [audio_setup midi_setup ctrl hctrl mdi1 mdi2 mdi3 setup close audi
 [[audio_setup]
 	[core : *interfaces] [eq [*outputs *] *interfaces]
 	[SELECT
+		[[AT 0 *index "USB Audio CODEC, USB Audio Default Audio Device" *outputs] [AUDIO_HARDWARE_SETTINGS [core 330 32000 2048 *index -1]]]
 		[[AT 0 *index "Playback/recording through the PulseAudio sound server" *outputs] [AUDIO_HARDWARE_SETTINGS [core 330 22050 2048 *index -1]]]
 		[]
 	]
