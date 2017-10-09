@@ -1,0 +1,1 @@
+{\key c \major \clef "bass_8" <e,, a,, d, g,>1 \clef treble g' g''\harmonic}

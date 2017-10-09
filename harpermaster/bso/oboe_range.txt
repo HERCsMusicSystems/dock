@@ -1,0 +1,1 @@
+{\key c \major \clef treble b1 \ottava #1 g'''}

@@ -1,0 +1,1 @@
+{\key c \major \clef alto <c g d' a'>1 \clef treble e''' \ottava #1 e''''\harmonic}

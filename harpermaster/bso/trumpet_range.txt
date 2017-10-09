@@ -1,0 +1,1 @@
+{\key c \major \clef treble e1 b''}
