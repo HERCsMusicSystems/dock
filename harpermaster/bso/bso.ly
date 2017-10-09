@@ -24,17 +24,11 @@
       \relative c' {\key g \major c'1 e}
     >>
     \new StaffGroup <<
+      \new Staff \with { instrumentName = "Horn (real)" }
+      \include "horn_range.txt"
       \new Staff \with { instrumentName = "Horn I" }
-      \relative c' {\key g \major c'1 e}
-      \new Staff \with { instrumentName = "Horn II" }
-      \relative c' {\key g \major c'1 e}
-      \new Staff \with { instrumentName = "Horn III" }
-      \relative c' {\key g \major c'1 e}
-      \new Staff \with { instrumentName = "Horn IV" }
-      \relative c' {\key g \major c'1 e}
+      \transpose c g {\include "horn_range.txt"}
       \new Staff \with { instrumentName = "Trumpet I" }
-      \relative c' {\key g \major c'1 e}
-      \new Staff \with { instrumentName = "Trumpet II" }
       \relative c' {\key g \major c'1 e}
       \new Staff \with { instrumentName = "Trombone" }
       \relative c' {\key g \major c'1 e}
