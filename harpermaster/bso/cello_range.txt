@@ -1,0 +1,1 @@
+{\key c \major \clef bass <c, g, d a>1 \clef treble a'' \ottava #2 a''''}

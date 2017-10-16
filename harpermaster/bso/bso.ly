@@ -1,40 +1,48 @@
 #(set-default-paper-size "a3")
 
+\paper {
+  left-margin = 3\cm
+}
+
 \score {
   <<
     \new StaffGroup <<
       \new Staff \with { instrumentName = "Flute I" }
       \include "flute_range.txt"
       \new Staff \with { instrumentName = "Flute II" }
-      \relative c' {\key g \major c'1 e}
+      \include "flute_range.txt"
       \new Staff \with { instrumentName = "Oboe I" }
       \include "oboe_range.txt"
       \new Staff \with { instrumentName = "Oboe II" }
-      \relative c' {\key g \major c'1 e}
+      \include "oboe_range.txt"
       \new Staff \with { instrumentName = "Clarinet I (real)" }
       \include "clarinet_range.txt"
-      \new Staff \with { instrumentName = "Clarinet II" }
+      \new Staff \with { instrumentName = "Clarinet II (as written)" }
       \transpose c d {\include "clarinet_range.txt"}
       \new Staff \with { instrumentName = "Clarinet III" }
-      \relative c' {\key g \major c'1 e}
+      \transpose c d {\include "clarinet_range.txt"}
       \new Staff \with { instrumentName = "Bassoon I" }
       \include "bassoon_range.txt"
       \new Staff \with { instrumentName = "Bassoon II" }
-      \relative c' {\key g \major c'1 e}
+      \include "bassoon_range.txt"
       \new Staff \with { instrumentName = "Bassoon III" }
-      \relative c' {\key g \major c'1 e}
+      \include "bassoon_range.txt"
     >>
     \new StaffGroup <<
-      \new Staff \with { instrumentName = "Horn (real)" }
+      \new Staff \with { instrumentName = "Horn I (real)" }
       \include "horn_range.txt"
-      \new Staff \with { instrumentName = "Horn I" }
+      \new Staff \with { instrumentName = "Horn II (as written)" }
+      \transpose c g {\include "horn_range.txt"}
+      \new Staff \with { instrumentName = "Horn III" }
+      \transpose c g {\include "horn_range.txt"}
+      \new Staff \with { instrumentName = "Horn IV" }
       \transpose c g {\include "horn_range.txt"}
       \new Staff \with { instrumentName = "Trumpet I (real)" }
       \include "trumpet_range.txt"
       \new Staff \with { instrumentName = "Trumpet II" }
-      \transpose c d {\include "trumpet_range.txt"}
+      \transpose bes c' {\include "trumpet_range.txt"}
       \new Staff \with { instrumentName = "Trombone" }
-      \relative c' {\key g \major c'1 e}
+      \include "trombone_range.txt"
     >>
     \new StaffGroup <<
       \new RhythmicStaff \with { instrumentName = "Percussion" }
@@ -47,12 +55,12 @@
         \new Staff \with { instrumentName = "Violin I" }
         \include "violing_range.txt"
         \new Staff \with { instrumentName = "Violin II" }
-        \relative c' { \key g \major c1 e }
+        \include "violing_range.txt"
       >>
       \new Staff \with { instrumentName = "Viola" }
       \include "viola_range.txt"
       \new Staff \with { instrumentName = "Cello" }
-      {\clef bass \relative c { \key g \major c4 d e f g1 }}
+      \include "cello_range.txt"
       \new Staff \with { instrumentName = "Double Bass" }
       \include "bass_range.txt"
     >>

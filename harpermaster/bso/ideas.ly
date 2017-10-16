@@ -17,6 +17,30 @@
   }
 }
 
+musicUp = \relative {\key f \major
+  <f' a c>2 (<f a c> <f a c> <f a c>)
+  <d f a> (<< {\voiceOne <g c,>} \new Voice {\voiceTwo f4 (e)}>> <d f a>2 <c e g>)
+  <f a c>2 (<f a c> <f a c> <f a c>)
+  <d f a> r2
+}
+musicDown = \relative {f'2 (e d c) bes s s s f'2 (e d c) bes r2}
+
+\score {
+  \new PianoStaff <<
+    \new Staff {
+      \relative {\key f \major
+        f'8. a32 c f2 \tuplet 3/2 {c8 a f} c'8. c32 c c2.
+        a4 \tuplet 3/2 {c8 a f} c4~ c8. f32 a c8. a32 f c4~ c2
+        f4 \tuplet 3/2 {a8 f a} c4~ c8. a32 f c'8. c32 c c4~ c2
+        a4 (a8.) c16 \staccato r2 \bar "|."
+      }
+    }
+    \new Staff << \musicUp \\ \musicDown>>
+  >>
+}
+
+\markup \vspace #7
+
 \score {
   \new Staff \with {
     \override StaffSymbol.line-count = #11
@@ -40,22 +64,6 @@
       middleCPosition = #0
       middleCClefPosition = #0
   }
-  {c d e f}
+  \relative {c4 d e f g a b c d e f g a b c2 \bar "|."}
 }
 
-musicUp = \relative {<c' e g>2 (<c e g> <c e g> <c e g>)}
-musicDown = \relative {c'2 (b a g)}
-
-\score {
-  \new PianoStaff <<
-    \new Staff {
-      \relative {
-        f'8. a32 c f2 \tuplet 3/2 {c8 a f} c'8. c32 c c2.
-        a8 \tuplet 3/2 {c16 a f} c8. f32 a c16 a32 f c8 (c4)
-        f8 \tuplet 3/2 {a16 f a} c8. a32 f c'16 c32 c c8 (c4)
-        a4 (a8.) c16 \staccato r2
-      }
-    }
-    \new Staff << \musicUp \\ \musicDown>>
-  >>
-}
