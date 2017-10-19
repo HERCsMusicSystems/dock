@@ -1,0 +1,5 @@
+{\key c \major \clef treble \relative {
+  s g4 (c g' g2. f8 e c2. a4 g1)
+  r4 g (c g' g2. f8 e c2.) c8 (d es d c f ~ f4) es8 (d c d4.)
+  c4 (g' g2. f8 e c2.) c8 (d es d c bes' ~ bes4 g f 2. es8 d c1)
+}}
