@@ -9,7 +9,7 @@ program c1 [c1_setup c1_close Abakos-0 Microdot-1 compk]
 [[ctrl : *command] [income_midi : *command]]
 
 [[c1_setup]
-  [BuildAbakos 2]
+  [BuildAbakos 6]
 	[BuildMicrodot]
 	[audio_setup]
 	[midi_setup]
