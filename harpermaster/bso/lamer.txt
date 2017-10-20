@@ -1,0 +1,8 @@
+\new Staff <<
+  \relative {
+    \key bes \major
+    \clef tenor
+    bes32 \< \p (c8..) g'2. \! \sf \> \p ~ g \! r4
+    bes,32 (c8..) g'4
+  }
+>>
