@@ -6,6 +6,8 @@
   \new StaffGroup <<
     \new Staff \with {instrumentName = "Horns (real)"}
     \include "horn_tv.txt"
+    \new Staff \with {instrumentName = "Brass (real)" shortInstrumentName = "Brass"}
+    \include "brass_tv.txt"
   >>
   \new StaffGroup <<
     \new Staff \with {instrumentName = "Glockenspiel"}

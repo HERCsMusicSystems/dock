@@ -2,5 +2,11 @@
   s1 s s s s s s s s s s s s
   g'8 c, g' c, g' c, g' c, g' c, g' c, g' c, g' c, g' c, g' c, g' c, g' c, g' c, g' c,
   g' c, g' c, g' c, g' c, g' c, g' c, g' c, g' c,
+  r8 r r r r r r r r r r r
+  r r r r r r r r r r r r
+  r r r r r r r r r r r r
+  r r r r r r r r r r r r
+  r r r r r r r r r r r r
+  r r r r r r r r r r r r
   s1 s s s s s s s s s s s s
 }}
