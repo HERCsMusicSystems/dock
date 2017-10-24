@@ -1,1 +1,1 @@
-{\key c \major \clef bass b,,1 \clef tenor d''}
+{\key c \major \clef bass bes,,1 \clef tenor d''}
