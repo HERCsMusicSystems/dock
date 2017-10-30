@@ -1,0 +1,10 @@
+{\key c \major \clef treble
+  s1
+  s
+  s
+  s \relative {
+  <c' e g> \sfp \<
+  r \ff
+  r
+  r
+}}
