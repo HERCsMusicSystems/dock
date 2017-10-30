@@ -1,0 +1,10 @@
+{
+  s1
+  s
+  s
+  s
+  c8 r16 c8 r16 c8 r2
+  c8 r16 c8 r16 c8 r2
+  c8 r16 c8 r16 c8 r2
+  c8 r16 c8 r16 c8 r2
+}
