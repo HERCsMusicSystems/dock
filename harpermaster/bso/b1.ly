@@ -40,9 +40,9 @@
   \new StaffGroup <<
     \new GrandStaff <<
       \new Staff \with {instrumentName = "Violin I" shortInstrumentName = "Violin I"}
-      \include "b1_blanks.txt"
+      \include "b1_violin1.txt"
       \new Staff \with {instrumentName = "Violin I" shortInstrumentName = "Violin II"}
-      \include "b1_blanks.txt"
+      \include "b1_violin2.txt"
     >>
     \new Staff \with {instrumentName = "Viola" shortInstrumentName = "Viola"}
     \include "b1_viola.txt"
