@@ -10,5 +10,12 @@
   d16 e r d e r d e r d e r r4
   fis16 g r fis g r fis g r fis g r r4
   g16 bes r g bes r g bes r g bes r r4
-  g16 bes r g bes r g bes r g bes r r4
+  g16 bes r g bes r g bes r g bes r f8 g
+  a16 c r a c r a c r a c r r4
+  r c, f g
+  as2. g8 f
+  bes2 c4 d
+  e8 d c g e g e d
+  c1
+  s s s s s s s s s s s s s s s s
 }}

@@ -7,5 +7,17 @@
   <c' e g> \pp \<
   r \ff
   r
+  r
+  <d fis a> \<
+  <es g bes> \>
+  r \!
+  r
+  <f a c> \<
+  <as c es> \!
+  <bes d f> \>
+  r \!
+  <c, e g> \>
+  (<c e g>) \! \>
+  r \!
   s1 s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s
 }}

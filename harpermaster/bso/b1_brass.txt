@@ -6,6 +6,17 @@
   <c' e g> \sfp \<
   r \ff
   r
+  <c e g> \<
+  <d fis a> \>
+  r \!
   r
+  <es g bes> \<
+  <f a c> \>
+  r \!
+  r
+  <d f bes d> \<
+  <c e g c e> \>
+  (<c e g c e>) \>
+  r \!
   s1 s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s
 }}
