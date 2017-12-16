@@ -1,0 +1,5 @@
+{\key c \major \clef treble
+	\relative {
+	c'1:16\pp ~ c2:16 e2:16->\p \> ~ e1:16 \pp g1:16->\p \> e:16 \pp
+}}
+
