@@ -1,4 +1,4 @@
-#(set-default-paper-size "a3")
+#(set-default-paper-size "a3" 'landscape)
 
 \paper {
   left-margin = 3\cm
@@ -18,7 +18,7 @@
     \new Staff \with {instrumentName = "Cello" shortInstrumentName = "Cello"}
     \include "a1_cello.txt"
     \new Staff \with {instrumentName = "Bass" shortInstrumentName = "Bass"}
-    \include "b1_bass.txt"
+    \include "a1_bass.txt"
   >>
 >>}
 
