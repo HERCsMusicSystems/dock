@@ -1,0 +1,13 @@
+\relative {
+  r4 r r r r r r r r r r r r r r r
+  r r r r r r r r r r r r r r r r
+  r r r r r r r r r r r r r r r r
+  r r r r r r r r r r r r r r r r
+  r r r r r r r r r r r r r r r r
+  r r r r r r r r r r r r r r r r
+  r r r r r r r r r r r r r r r r
+  r r r r r r r r r r r r r r r r
+  r r r r r r r r r r r r r r r r
+  r r r r r r r r r r r r r r r r
+  r r r r r r r r r r r r r r r r
+}

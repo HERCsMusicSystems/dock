@@ -5,7 +5,28 @@
 }
 
 \score {<<
-
+  \new StaffGroup <<
+    \new GrandStaff \with {instrumentName = "Woodwind" shortInstrumentName = "Woodwind"} <<
+      \new Staff
+      {\key c \major \clef treble \include "a1_empty.txt"}
+      \new Staff
+      {\key c \major \clef bass \include "a1_empty.txt"}
+    >>
+  >>
+  \new StaffGroup <<
+    \new GrandStaff \with {instrumentName = "Brass" shortInstrumentName = "Brass"} <<
+      \new Staff
+      {\key c \major \clef treble \include "a1_empty.txt"}
+      \new Staff
+      {\key c \major \clef bass \include "a1_empty.txt"}
+    >>
+  >>
+  \new StaffGroup <<
+    \new RhythmicStaff \with { instrumentName = "Percussion" }
+    {\key c \major \include "a1_drum_track.txt"}
+    \new Staff \with { instrumentName = "Timpani" }
+    \include "a1_empty.txt"
+  >>
   \new StaffGroup <<
     \new GrandStaff <<
       \new Staff \with {instrumentName = "Violin I" shortInstrumentName = "Violin I"}
