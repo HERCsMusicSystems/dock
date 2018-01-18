@@ -14,6 +14,9 @@
     >>
   >>
   \new StaffGroup <<
+    \new Staff \with {instrumentName = "Trumpet I" shortInstrumentName = "Trumpet I"}
+      % \transpose c d
+      \include "a1_trumpet_1.txt"
     \new GrandStaff \with {instrumentName = "Brass" shortInstrumentName = "Brass"} <<
       \new Staff
       {\key c \major \clef treble \include "a1_empty.txt"}
@@ -41,5 +44,12 @@
     \new Staff \with {instrumentName = "Bass" shortInstrumentName = "Bass"}
     \include "a1_bass.txt"
   >>
->>}
+>>
+  \layout {
+    \context {
+      \Score
+      \override SpacingSpanner.base-shortest-duration = #(ly:make-moment 1/8)
+    }
+  }
+}
 
