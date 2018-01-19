@@ -1,8 +1,7 @@
 {\key c \major \clef treble
   \relative {
-  s1 s s s s
-  r4 e''4. \mf (\tuplet 3/2 {g16 e c} g4) ~ \> g2. \pp r4
-  r1 r4 g'4 \mf (c d ~ \> d2.) \pp r4
+  s1 s s s s s s
+  r4 g \mf (c d ~ \> d2.) \pp
   s1 s s s s s s s s s s s s s s s s s
   s1 s s s s s s s s s s s s s s s s s
 }}

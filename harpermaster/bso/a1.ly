@@ -6,6 +6,10 @@
 
 \score {<<
   \new StaffGroup <<
+    \new Staff \with {instrumentName = "Flute I" shortInstrumentName = "Flute I"}
+      \include "a1_flute_1.txt"
+    \new Staff \with {instrumentName = "Clarinet I" shortInstrumentName = "Clarinet I"}
+      \include "a1_clarinet_1.txt"
     \new GrandStaff \with {instrumentName = "Woodwind" shortInstrumentName = "Woodwind"} <<
       \new Staff
       {\key c \major \clef treble \include "a1_empty.txt"}
@@ -14,6 +18,10 @@
     >>
   >>
   \new StaffGroup <<
+    \new Staff \with {instrumentName = "Horn I" shortInstrumentName = "Horn I"}
+      \include "a1_horn_1.txt"
+    \new Staff \with {instrumentName = "Horn II" shortInstrumentName = "Horn II"}
+      \include "a1_horn_2.txt"
     \new Staff \with {instrumentName = "Trumpet I" shortInstrumentName = "Trumpet I"}
       % \transpose c d
       \include "a1_trumpet_1.txt"
@@ -48,7 +56,7 @@
   \layout {
     \context {
       \Score
-      \override SpacingSpanner.base-shortest-duration = #(ly:make-moment 1/8)
+      \override SpacingSpanner.base-shortest-duration = #(ly:make-moment 1/16)
     }
   }
 }
