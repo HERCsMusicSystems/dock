@@ -2,6 +2,7 @@
   \relative {
   s1 s s s s s s
   r2 r4 g' \p \< (c d2. ~ d4 ~ \mf \tuplet 3/2 {d8 \> c a} g2 \pp \fermata)
-  s1 s s s s s s s s s s s s s s s s s
+  s1 s s s s s
+  r2 r4 f \mf (b1 \>) r1 \pp
   s1 s s s s s s s s s s s s s s s s s
 }}
