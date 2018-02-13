@@ -19,7 +19,7 @@
   >>
   \new StaffGroup <<
     \new Staff \with {instrumentName = "Horn I" shortInstrumentName = "Horn I"}
-      \include "a1_horn_1.txt"
+      {\include "a1_horn_1.txt" \include "b1_horn_1.txt"}
     \new Staff \with {instrumentName = "Horn II" shortInstrumentName = "Horn II"}
       \include "a1_horn_2.txt"
     \new Staff \with {instrumentName = "Trumpet I" shortInstrumentName = "Trumpet I"}
@@ -41,7 +41,7 @@
   \new StaffGroup <<
     \new GrandStaff <<
       \new Staff \with {instrumentName = "Violin I" shortInstrumentName = "Violin I"}
-      \include "a1_violin1.txt"
+      {\include "a1_violin1.txt" \include "b1_violin1.txt"}
       \new Staff \with {instrumentName = "Violin I" shortInstrumentName = "Violin II"}
       \include "a1_violin2.txt"
     >>

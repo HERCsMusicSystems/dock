@@ -5,8 +5,4 @@
   e2:16 \pp g4:16 b:16->\p e1:16 \> ~ e:16 \pp ~ e:16
   g,:16 ~ g:16
   r2 f g a b2. a8 b c1
-  s s s s s s s s
-  s s s s s s s s
-  s s s s s s s s
-  s s s s
 }}
