@@ -18,14 +18,14 @@ poly
 [core freeverb highdamp]0.0
 [core freeverb dry]16384.0
 [core freeverb wet]16384.0
-[core X]0.0
-[core Y]0.0
-[core auto control]0.0
-[core auto speed]0.0
+[core vector X]0.0
+[core vector Y]0.0
+[core vector auto control]0.0
+[core vector auto speed]0.0
 [core pitch]0.0
 [core modulation]0.0
-[core sens vibrato]256.0
-[core sens wahwah]0.0
+[core sens lfo vibrato]256.0
+[core sens lfo wahwah]0.0
 [arpeggiator speed]140.0
 [arpeggiator subdivision]24.0
 [arpeggiator active]0.0
@@ -93,14 +93,14 @@ poly
 [vco 6 ratio]1.0
 [vco 6 feedback]2816.0
 [vco noise amp]-16384.0
-[vco noise time1]0.0
-[vco noise time2]0.0
-[vco noise time3]0.0
-[vco noise time4]0.0
-[vco noise level1]0.0
-[vco noise level2]0.0
-[vco noise level3]0.0
-[vco noise level4]0.0
+[vco noise eg time1]0.0
+[vco noise eg time2]0.0
+[vco noise eg time3]0.0
+[vco noise eg time4]0.0
+[vco noise eg level1]0.0
+[vco noise eg level2]0.0
+[vco noise eg level3]0.0
+[vco noise eg level4]0.0
 [filter freq]5120.0
 [filter resonance]0.0
 [filter amp]0.0
