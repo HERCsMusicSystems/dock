@@ -6,8 +6,4 @@
   e1:16 d1:16 ~ d1:16 ~d \fermata
   e'1:16 \pp d:16 c:16 b:16 a:16 g:16
   f:16 ~ f:16 ~ f:16 ~ f:16
-  s s s s s s s s
-  s s s s s s s s
-  s s s s s s s s
-  s
 }}

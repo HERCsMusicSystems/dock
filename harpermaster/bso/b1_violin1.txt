@@ -1,6 +1,8 @@
 {\key c \major \clef treble
   \relative {
-  r1 r r r2 g' (c d) es2. (d8 c bes2 g) c (es d f) f4 (e c g) a1 es'2 (d4 c bes1) c  c16 d r c d r c d r c d r r4
+  r1 r r r2 g' (c d) es2. (d8 c bes2 g) c (es d f) f4 (e c g) a1 es'2 (d4 c bes1) c
+  r2
+  c16 d r c d r c d r c d r r4
   c16 d r c d r c d r c d r r4
   d16 e r d e r d e r d e r r4
   fis16 g r fis g r fis g r fis g r r4

@@ -4,8 +4,4 @@
   c,:16 ~ c \fermata
   r1 r r r r r
   r4 c'4 b g f1 f f
-  s s s s s s s s
-  s s s s s s s s
-  s s s s s s s s
-  s
 }}
