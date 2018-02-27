@@ -3,9 +3,6 @@
 	c'1:16\pp ~ c2:16 e2:16->\p \> ~ e1:16 \pp g1:16->\p \> e:16 \pp
 	c:16 ~ c:16 ~ c:16 \< ~ c2:16 \mf (b:16) \> ~ b1 \fermata \pp
   e2:16 \pp g:16 -> \p \> ~ g1:16 \pp b:16 -> \p \> g:16 \pp
-  e:16 ~ e:16 c:16 c:16 c:16 c:16 c:16
-  s s s s s s s s
-  s s s s s s s s
-  s s s s s s s s
+  e:16 ~ e:16 c:16 c:16 c:16 c:16
 }}
 

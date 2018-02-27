@@ -4,5 +4,5 @@
   r4 g \mf (c d ~ \> d2.) r4 \pp
   s1 s s s s s s
   r4 f, \mf (b c ~ \> c2.) r4 \pp
-  s1 s s s s s s s s s s s s s s s s s
+  s1 s
 }}

@@ -1,0 +1,8 @@
+\relative {
+  s1 s s s s s s s s s s s s s
+  s2
+  s1 s s s
+  s s
+  s s s s s s s s
+  s s s s s s s s
+}

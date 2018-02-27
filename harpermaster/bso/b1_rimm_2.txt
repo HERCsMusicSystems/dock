@@ -1,4 +1,9 @@
 {
+  s1 s s s s s s s
+  s s s s s s
+  s2
+  s1 s s s
+  s s
   r1 %c16 [\set stemRightBeamCount = #1 c \set stemRightBeamCount = #1 \set stemLeftBeamCount = #1 r c] c [\set stemRightBeamCount = #1 \set stemLeftBeamCount = #1 r \set stemLeftBeamCount = #1 c c] r2
   c16 c r c c r c c r2
   c16 c r c c r c c r2

@@ -4,5 +4,5 @@
   r2 r8 e''16 \mf (c g4 \>) ~ g2. \pp r4
   s1 s s s s s s
   r2 r8 g'16 \mf (e c4 \>) ~ c2. \pp r4
-  s1 s s s s s s s s s s s s s s s s s
+  s1 s s
 }}
