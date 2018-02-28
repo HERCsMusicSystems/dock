@@ -4,4 +4,8 @@
   \time 4/4 c4 r8 c4 r8 c4 r8 c4 r8 c4 c
   c4 r8 c4 r8 c4 r8 c4 r8 c4 c
   s1 s
+  s s s s s s
+  c8 r16 c8 r16 c8 r2
+  c8 r16 c8 r16 c8 r2
+  c8 r16 c8 r16 c8 r2
 }}

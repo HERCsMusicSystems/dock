@@ -12,5 +12,13 @@
   c16 c r c c r c c r2
   c16 c r c c r c c r2
   c16 c r c c r c c r2
-  s1 s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s
+  c16 c r c c r c c r2
+  c16 c r c c r c c r2
+  c16 c r c c r c c r2
+  c16 c r c c r c c r2
+  c16 c r c c r c c r2
+  c16 c r c c r c c r2
+  c16 c r c c r c c r2
+  c16 c r c c r c c r2
+  s1
 }

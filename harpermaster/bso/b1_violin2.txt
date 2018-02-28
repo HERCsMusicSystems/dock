@@ -4,7 +4,8 @@
   r r r r r r r2
   c'8 d r c g' e c r c d r c g' e c r
   c'8 d r c g' e c r c d r c g' e c r
-  s1 s s s
+  s2 s1 s
+  s s s s s s
   r8. c16 d c c d
   c8 r8 r4 r8. c16 d c c d
   d8 r8 r4 r8. d16 e d d e
@@ -17,5 +18,5 @@
   bes c r bes c r bes c r bes c r bes4
   c8 g e d c d c e
   g1
-  s s s s s s s s s s s s s s s s
+  s s s
 }}

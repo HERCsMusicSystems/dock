@@ -4,7 +4,8 @@
   r r r r r r r2
   c8 d r c d d c d c d r c d d c d
   c8 d r c d d c d c d r c d d c d
-  s1 s s s
+  s1 s
+  s s s s s s
   c'8 c c c c c c c
   c c c c c c c c
   d d d d d d d d
@@ -16,5 +17,5 @@
   as as as as as as as as
   bes bes bes bes bes bes bes bes
   c1
-  s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s
+  s s s
 }}

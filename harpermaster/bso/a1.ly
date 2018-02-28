@@ -12,7 +12,7 @@
       {\include "a1_clarinet_1.txt" \include "b1_empty.txt"}
     \new GrandStaff \with {instrumentName = "Woodwind" shortInstrumentName = "Woodwind"} <<
       \new Staff
-      {\key c \major \clef treble \include "a1_empty.txt" \include "b1_empty.txt"}
+      {\key c \major \clef treble \include "a1_empty.txt" \include "b1_wood.txt"}
       \new Staff
       {\key c \major \clef bass \include "a1_empty.txt" \include "b1_empty.txt"}
     >>
@@ -27,7 +27,7 @@
       \include "a1_trumpet_1.txt" \include "b1_trumpet_1.txt"}
     \new GrandStaff \with {instrumentName = "Brass" shortInstrumentName = "Brass"} <<
       \new Staff
-      {\key c \major \clef treble \include "a1_empty.txt" \include "b1_empty.txt"}
+      {\key c \major \clef treble \include "a1_empty.txt" \include "b1_brass.txt"}
       \new Staff
       {\key c \major \clef bass \include "a1_empty.txt" \include "b1_empty.txt"}
     >>
