@@ -19,5 +19,5 @@
   <c e g c e> \>
   (<c e g c e>) \>
   r \!
-  s1
+  s1 s s
 }}

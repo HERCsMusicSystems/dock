@@ -17,5 +17,5 @@
   as2. g8 f
   bes2 c4 d
   e8 d c g e g e d
-  c1
+  c1 s s s s
 }}

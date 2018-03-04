@@ -18,5 +18,5 @@
   bes c r bes c r bes c r bes c r bes4
   c8 g e d c d c e
   g1
-  s s s
+  s s s s
 }}
