@@ -1,0 +1,69 @@
+[show "cygnus"]
+
+[import "microdot"]
+
+[BuildMicrodot]
+
+[res [Moons * 0 *cb : *] [polysequencer seq *cb]]
+
+[seq [
+	; INTRO
+	[keyon 0 [B 0] 100] 6 [keyoff 0] [keyon 0 [D 1] 100] 6 [keyoff 0] [keyon 0 [B 1] 100] 6 [keyoff 0] [keyon 0 [G 1] 100] 6 [keyoff 0]
+	[keyon 0 [B 0] 100] 6 [keyoff 0] [keyon 0 [D 1] 100] 6 [keyoff 0] [keyon 0 [B 1] 100] 6 [keyoff 0] [keyon 0 [G 1] 100] 6 [keyoff 0]
+	[keyon 0 [B 0] 100] 6 [keyoff 0] [keyon 0 [D 1] 100] 6 [keyoff 0] [keyon 0 [B 1] 100] 6 [keyoff 0] [keyon 0 [G 1] 100] 6 [keyoff 0]
+	[keyon 0 [B 0] 100] 6 [keyoff 0] [keyon 0 [D 1] 100] 6 [keyoff 0] [keyon 0 [B 1] 100] 6 [keyoff 0] [keyon 0 [G 1] 100] 6 [keyoff 0]
+	[keyon 0 [B 0] 100] 6 [keyoff 0] [keyon 0 [D 1] 100] 6 [keyoff 0] [keyon 0 [B 1] 100] 6 [keyoff 0] [keyon 0 [G 1] 100] 6 [keyoff 0]
+	[keyon 0 [B 0] 100] 6 [keyoff 0] [keyon 0 [D 1] 100] 6 [keyoff 0] [keyon 0 [B 1] 100] 6 [keyoff 0] [keyon 0 [G 1] 100] 6 [keyoff 0]
+	; FIRST
+	[keyon 0 [B 0] 100] 6 [keyoff 0] [keyon 0 [D 1] 100] 6 [keyoff 0] [keyon 0 [B 1] 100] 6 [keyoff 0] [keyon 0 [G 1] 100] 6 [keyoff 0]
+	[keyon 0 [B 0] 100] 6 [keyoff 0] [keyon 0 [D 1] 100] 6 [keyoff 0] [keyon 0 [B 1] 100] 6 [keyoff 0] [keyon 0 [G 1] 100] 6 [keyoff 0]
+	[keyon 0 [B 0] 100] 6 [keyoff 0] [keyon 0 [D 1] 100] 6 [keyoff 0] [keyon 0 [B 1] 100] 6 [keyoff 0] [keyon 0 [G 1] 100] 6 [keyoff 0]
+	[keyon 0 [B 0] 100] 6 [keyoff 0] [keyon 0 [D 1] 100] 6 [keyoff 0] [keyon 0 [B 1] 100] 6 [keyoff 0] [keyon 0 [G 1] 100] 6 [keyoff 0]
+	[keyon 0 [B 0] 100] 6 [keyoff 0] [keyon 0 [D 1] 100] 6 [keyoff 0] [keyon 0 [B 1] 100] 6 [keyoff 0] [keyon 0 [G 1] 100] 6 [keyoff 0]
+	[keyon 0 [B 0] 100] 6 [keyoff 0] [keyon 0 [D 1] 100] 6 [keyoff 0] [keyon 0 [B 1] 100] 6 [keyoff 0] [keyon 0 [G 1] 100] 6 [keyoff 0]
+
+	[keyon 0 [C 1] 100] 6 [keyoff 0] [keyon 0 [E 1] 100] 6 [keyoff 0] [keyon 0 [C 2] 100] 6 [keyoff 0] [keyon 0 [A 1] 100] 6 [keyoff 0]
+	[keyon 0 [C 1] 100] 6 [keyoff 0] [keyon 0 [E 1] 100] 6 [keyoff 0] [keyon 0 [C 2] 100] 6 [keyoff 0] [keyon 0 [A 1] 100] 6 [keyoff 0]
+	[keyon 0 [C 1] 100] 6 [keyoff 0] [keyon 0 [E 1] 100] 6 [keyoff 0] [keyon 0 [C 2] 100] 6 [keyoff 0] [keyon 0 [A 1] 100] 6 [keyoff 0]
+	[keyon 0 [C 1] 100] 6 [keyoff 0] [keyon 0 [E 1] 100] 6 [keyoff 0] [keyon 0 [C 2] 100] 6 [keyoff 0] [keyon 0 [A 1] 100] 6 [keyoff 0]
+	[keyon 0 [C 1] 100] 6 [keyoff 0] [keyon 0 [E 1] 100] 6 [keyoff 0] [keyon 0 [C 2] 100] 6 [keyoff 0] [keyon 0 [A 1] 100] 6 [keyoff 0]
+	[keyon 0 [C 1] 100] 6 [keyoff 0] [keyon 0 [E 1] 100] 6 [keyoff 0] [keyon 0 [C 2] 100] 6 [keyoff 0] [keyon 0 [A 1] 100] 6 [keyoff 0]
+
+	[keyon 0 [C 1] 100] 6 [keyoff 0] [keyon 0 [E 1] 100] 6 [keyoff 0] [keyon 0 [C 2] 100] 6 [keyoff 0] [keyon 0 [A 1] 100] 6 [keyoff 0]
+	[keyon 0 [C 1] 100] 6 [keyoff 0] [keyon 0 [E 1] 100] 6 [keyoff 0] [keyon 0 [C 2] 100] 6 [keyoff 0] [keyon 0 [A 1] 100] 6 [keyoff 0]
+	[keyon 0 [C 1] 100] 6 [keyoff 0] [keyon 0 [E 1] 100] 6 [keyoff 0] [keyon 0 [C 2] 100] 6 [keyoff 0] [keyon 0 [A 1] 100] 6 [keyoff 0]
+	[keyon 0 [C 1] 100] 6 [keyoff 0] [keyon 0 [F# 1] 100] 6 [keyoff 0] [keyon 0 [C 2] 100] 6 [keyoff 0] [keyon 0 [A 1] 100] 6 [keyoff 0]
+	[keyon 0 [C 1] 100] 6 [keyoff 0] [keyon 0 [F# 1] 100] 6 [keyoff 0] [keyon 0 [C 2] 100] 6 [keyoff 0] [keyon 0 [A 1] 100] 6 [keyoff 0]
+	[keyon 0 [C 1] 100] 6 [keyoff 0] [keyon 0 [F# 1] 100] 6 [keyoff 0] [keyon 0 [C 2] 100] 6 [keyoff 0] [keyon 0 [A 1] 100] 6 [keyoff 0]
+
+	[keyon 0 [B 0] 100] 6 [keyoff 0] [keyon 0 [D 1] 100] 6 [keyoff 0] [keyon 0 [B 1] 100] 6 [keyoff 0] [keyon 0 [G 1] 100] 6 [keyoff 0]
+	[keyon 0 [B 0] 100] 6 [keyoff 0] [keyon 0 [D 1] 100] 6 [keyoff 0] [keyon 0 [B 1] 100] 6 [keyoff 0] [keyon 0 [G 1] 100] 6 [keyoff 0]
+	[keyon 0 [B 0] 100] 6 [keyoff 0] [keyon 0 [D 1] 100] 6 [keyoff 0] [keyon 0 [B 1] 100] 6 [keyoff 0] [keyon 0 [G 1] 100] 6 [keyoff 0]
+	[keyon 0 [B 0] 100] 6 [keyoff 0] [keyon 0 [D 1] 100] 6 [keyoff 0] [keyon 0 [B 1] 100] 6 [keyoff 0] [keyon 0 [G 1] 100] 6 [keyoff 0]
+	[keyon 0 [B 0] 100] 6 [keyoff 0] [keyon 0 [D 1] 100] 6 [keyoff 0] [keyon 0 [B 1] 100] 6 [keyoff 0] [keyon 0 [G 1] 100] 6 [keyoff 0]
+	[keyon 0 [B 0] 100] 6 [keyoff 0] [keyon 0 [D 1] 100] 6 [keyoff 0] [keyon 0 [B 1] 100] 6 [keyoff 0] [keyon 0 [G 1] 100] 6 [keyoff 0]
+	; SECOND
+	[keyon 0 [B 0] 100] 6 [keyoff 0] [keyon 0 [D 1] 100] 6 [keyoff 0] [keyon 0 [B 1] 100] 6 [keyoff 0] [keyon 0 [G 1] 100] 6 [keyoff 0]
+	[keyon 0 [B 0] 100] 6 [keyoff 0] [keyon 0 [D 1] 100] 6 [keyoff 0] [keyon 0 [B 1] 100] 6 [keyoff 0] [keyon 0 [G 1] 100] 6 [keyoff 0]
+	[keyon 0 [B 0] 100] 6 [keyoff 0] [keyon 0 [D 1] 100] 6 [keyoff 0] [keyon 0 [B 1] 100] 6 [keyoff 0] [keyon 0 [G 1] 100] 6 [keyoff 0]
+	[keyon 0 [B 0] 100] 6 [keyoff 0] [keyon 0 [D 1] 100] 6 [keyoff 0] [keyon 0 [B 1] 100] 6 [keyoff 0] [keyon 0 [G 1] 100] 6 [keyoff 0]
+	[keyon 0 [B 0] 100] 6 [keyoff 0] [keyon 0 [D 1] 100] 6 [keyoff 0] [keyon 0 [B 1] 100] 6 [keyoff 0] [keyon 0 [G 1] 100] 6 [keyoff 0]
+	[keyon 0 [B 0] 100] 6 [keyoff 0] [keyon 0 [D 1] 100] 6 [keyoff 0] [keyon 0 [B 1] 100] 6 [keyoff 0] [keyon 0 [G 1] 100] 6 [keyoff 0]
+]]
+
+[core reactor 330 22050]
+[ConnectAllMoons reactor]
+
+;[CommandCentre commander]
+
+[list]
+
+[wait 1000]
+[income_midi control 0 77 0]
+
+[seq "speed" 99]
+[seq "trigger" 1]
+
+
+[exit]
+
