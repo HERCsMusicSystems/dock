@@ -42,9 +42,9 @@
       \new Staff \with { instrumentName = "Viola" \omit TimeSignature }
       {s1 s s s s}
       \new Staff \with { instrumentName = "Cello" \omit TimeSignature }
-      {s1 s s s s}
+      {\clef bass s1 s s s s}
       \new Staff \with { instrumentName = "Bass" \omit TimeSignature }
-      {s1 s s s s}
+      {\clef "bass_8" s1 s s s s}
     >>
   >>
   \layout {
