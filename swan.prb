@@ -1,0 +1,8 @@
+
+[import "alarm"]
+[batch "alarm.prb"]
+
+[[ctrl : *command] [income_midi : *command]]
+
+[setup]
+
