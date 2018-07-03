@@ -42,6 +42,7 @@ program setup [audio_setup midi_setup ctrl hctrl mdi1 mdi2 mdi3 setup close audi
 ]
 
 [[hctrl programchange 0 *program] [programs *program *v] [action *program *v] [TRY [mdi3 control 0 *program *v]]]
+[[hctrl activesensing]]
 [[hctrl : *command] [show *command]]
 
 auto := [[ARRAY program_data 128]]
