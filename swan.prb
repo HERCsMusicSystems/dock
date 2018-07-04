@@ -1,6 +1,7 @@
 
 [import "phobos"]
 [BuildPhobos 3] [Restore 0 "Phobos/swan_right.txt"]
+[BuildPhobos 3] [Restore 1 "Phobos/swan_right.txt"]
 ;[batch "phobos.prb"]
 ;[import "alarm"]
 ;[import "microdot"]
@@ -20,11 +21,17 @@
 
 [setup]
 
+[[FUNCTION_KEY 1] [seq "trigger" 0]]
+[[FUNCTION_KEY 2] [seq "trigger" 128]]
+[[FUNCTION_KEY 3] [seq "trigger" 256]]
+[[FUNCTION_KEY *key] [show *key]]
 
 
-[multitrack seq [seq1 0]]; [seq2 1]]
+[multitrack seq [seq1 0] [seq2 1] pseq]
 
-[seq "speed" 84]
+[pseq [[show "BAR"] 48 48 48]]
+
+[seq "speed" 68]
 
 [seq1 [
 	; PROGRAM 1
@@ -590,26 +597,28 @@
 			[keyon 62 100] 6 [keyoff 62]
 			[keyon 71 100] 6 [keyoff 71]
 			[keyon 67 100] 6 [keyoff 67]
-	; PROGRAM 24
-			[keyon 57 100] 6 [keyoff 57]
-			[keyon 60 100] 6 [keyoff 60]
-			[keyon 67 100] 6 [keyoff 67] 6
+	; PROGRAM 23.5
+			[keyon 57 100] 3 ;[keyoff 57]
+			[keyon 60 100] 3 ;[keyoff 60]
+			[keyon 67 100] 3 ;[keyoff 67]
+			3 6 6 keyoff
 			24 24
+	; PROGRAM 24
+			[keyon 59 100] 6 [keyoff 59]
+			[keyon 62 100] 6 [keyoff 62]
+			[keyon 71 100] 6 [keyoff 71]
+			[keyon 67 100] 6 [keyoff 67]
+			[keyon 62 100] 6 [keyoff 62]
+			[keyon 67 100] 6 [keyoff 67]
+			[keyon 74 100] 6 [keyoff 74]
+			[keyon 71 100] 6 [keyoff 71]
+			[keyon 67 100] 6 [keyoff 67]
+			[keyon 71 100] 6 [keyoff 71]
+			[keyon 79 100] 6 [keyoff 79]
+			[keyon 74 100] 6 [keyoff 74]
+			24 24 24
 	; PROGRAM 25
 			[keyon 59 100] 6 [keyoff 59]
-			[keyon 62 100] 6 [keyoff 62]
-			[keyon 71 100] 6 [keyoff 71]
-			[keyon 67 100] 6 [keyoff 67]
-			[keyon 62 100] 6 [keyoff 62]
-			[keyon 67 100] 6 [keyoff 67]
-			[keyon 74 100] 6 [keyoff 74]
-			[keyon 71 100] 6 [keyoff 71]
-			[keyon 67 100] 6 [keyoff 67]
-			[keyon 71 100] 6 [keyoff 71]
-			[keyon 79 100] 6 [keyoff 79]
-			[keyon 74 100] 6 [keyoff 74]
-	; PROGRAM 26
-			[keyon 59 100] 6 [keyoff 59]
 			[keyon 64 100] 6 [keyoff 64]
 			[keyon 71 100] 6 [keyoff 71]
 			[keyon 67 100] 6 [keyoff 67]
@@ -621,12 +630,14 @@
 			[keyon 71 100] 6 [keyoff 71]
 			[keyon 79 100] 6 [keyoff 79]
 			[keyon 76 100] 6 [keyoff 76]
-	; PROGRAM 27
-			[keyon 62 100] 6 [keyoff 62]
-			[keyon 69 100] 6 [keyoff 69]
-			[keyon 72 100] 6 [keyoff 72] 6
+	; PROGRAM 25.5
+			[keyon 62 100] 3 ;[keyoff 62]
+			[keyon 69 100] 3 ;[keyoff 69]
+			[keyon 72 100] 3 ;[keyoff 72]
+			3 6 6 keyoff
 			24 24
-	; PROGRAM 28
+	; PROGRAM 26
+			24
 			[keyon 88 100] 6 [keyoff 88]
 			[keyon 91 100] 6 [keyoff 91]
 			[keyon 100 100] 6 [keyoff 100]
@@ -647,7 +658,7 @@
 			[keyon 79 100] 6 [keyoff 79]
 			[keyon 88 100] 6 [keyoff 88]
 			[keyon 83 100] 6 [keyoff 83]
-	; PROGRAM 29
+	; PROGRAM 27
 			[keyon 74 100] 6 [keyoff 74]
 			[keyon 79 100] 6 [keyoff 79]
 			[keyon 86 100] 6 [keyoff 86]
@@ -672,11 +683,12 @@
 			[keyon 62 100] 6 [keyoff 62]
 			[keyon 71 100] 6 [keyoff 71]
 			[keyon 67 100] 6 [keyoff 67]
-	; PROGRAM 30
-			[keyon 59 100] 6 [keyoff 59]
-	; PROGRAM 31
+	; PROGRAM 28
+			[keyon 59 100] 6 6 6 6 keyoff
+			24 24 24 24 24
+	; PROGRAM 29
 ]]
-[exit]
+
 [seq2 [
 	; PROGRAM 1
 			[keyon 43 100] 12 [keyoff 43]
@@ -971,17 +983,20 @@
 			[keyon 50 100] 12 [keyoff 50]
 			[keyon 47 100] 12 [keyoff 47]
 			[keyon 50 100] 12 [keyoff 50]
-			[keyon 52 100] 12 [keyoff 52]
+			[keyon 52 100] 24 keoff 24 24 ;[keyoff 52]
 	; PROGRAM 24
 			[keyon 50 100] 12 [keyoff 50]
 			[keyon 55 100] 12 [keyoff 55]
 			[keyon 59 100] 12 [keyoff 59]
 			[keyon 55 100] 12 [keyoff 55]
 			[keyon 62 100] 12 [keyoff 62]
-			[keyon 59 100] 12 [keyoff 59]
+			[keyon 59 100] 12 ;[keyoff 59]
+			24 keyoff 24 24
 	; PROGRAM 25
-			[keyon 50 100] 12 [keyoff 50]
+			[keyon 50 100] 24 keyoff 24 24 ;[keyoff 50]
+			24 24 24
 	; PROGRAM 26
+			24
 			[keyon 83 100] 12 [keyoff 83]
 			[keyon 76 100] 12 [keyoff 76]
 			[keyon 83 100] 12 [keyoff 83]
@@ -992,6 +1007,7 @@
 			[keyon 71 100] 12 [keyoff 71]
 			[keyon 71 100] 12 [keyoff 71]
 			[keyon 64 100] 12 [keyoff 64]
+	; PROGRAM 27
 			[keyon 71 100] 12 [keyoff 71]
 			[keyon 62 100] 12 [keyoff 62]
 			[keyon 64 100] 12 [keyoff 64]
@@ -1004,8 +1020,10 @@
 			[keyon 50 100] 12 [keyoff 50]
 			[keyon 55 100] 12 [keyoff 55]
 			[keyon 50 100] 12 [keyoff 50]
-			[keyon 43 100] 12 [keyoff 43]
-	; PROGRAM 27
+	; PROGRAM 28
+			[keyon 43 100] 24 keyoff 24 24 ;[keyoff 43]
+			24 24 24
+	; PROGRAM 29
 ]]
 
 [exit]
