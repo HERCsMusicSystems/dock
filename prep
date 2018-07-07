@@ -1,0 +1,7 @@
+
+sudo modprobe snd-virmidi
+aconnect 24:1 28:0
+aconnect 28:1 32:0
+
+stty -F /dev/ttyACM0 cs8 9600 ignbrk -brkint -icrnl -imaxbel -opost -onlcr -isig -icanon -iexten -echo -echoe -echok -echoctl -echoke noflsh -ixon -crtscts
+
