@@ -1,7 +1,14 @@
 
+;[import "phobos"]
+;[setup]
+[batch "VonFormanEditor.prb"]
+;[[ctrl : *command] [income_midi : *command]]
+
+
 [import "phobos"]
 [BuildPhobos 3] [Restore 0 "Phobos/swan_right.txt"]
 [BuildPhobos 3] [Restore 1 "Phobos/swan_right.txt"]
+[BuildPhobos 6] [Restore 2 "Phobos/swan_strings_2.txt"]
 ;[batch "phobos.prb"]
 ;[import "alarm"]
 ;[import "microdot"]
@@ -14,10 +21,10 @@
 
 ;[file_writer "swan_track.txt" fw]
 
-[[ctrl keyon * *key 0] [show [keyoff *key]] [fw [[keyoff *key]] "\n"]]
-[[ctrl keyon * *key *] [show [keyon *key 100]] [fw "			" [[keyon *key 100]] " 12 "]]
-[[ctrl programchange * *program] [show [program *program]] [fw "	; PROGRAM " [*program] "\n"]]
-;[[ctrl : *command] [income_midi : *command]]
+;[[ctrl keyon * *key 0] [show [keyoff *key]] [fw [[keyoff *key]] "\n"]]
+;[[ctrl keyon * *key *] [show [keyon *key 100]] [fw "			" [[keyon *key 100]] " 12 "]]
+;[[ctrl programchange * *program] [show [program *program]] [fw "	; PROGRAM " [*program] "\n"]]
+[[ctrl : *command] [income_midi : *command]]
 
 [setup]
 
