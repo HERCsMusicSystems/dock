@@ -24,6 +24,10 @@
 ;[[ctrl keyon * *key 0] [show [keyoff *key]] [fw [[keyoff *key]] "\n"]]
 ;[[ctrl keyon * *key *] [show [keyon *key 100]] [fw "			" [[keyon *key 100]] " 12 "]]
 ;[[ctrl programchange * *program] [show [program *program]] [fw "	; PROGRAM " [*program] "\n"]]
+
+[[ctrl control *channel 47 69] [seq "trigger" 0]]
+[[ctrl control *channel 47 68] [seq "trigger" 128]]
+[[ctrl control *channel 47 67] [seq "trigger" 256]]
 [[ctrl : *command] [income_midi : *command]]
 
 [setup]
