@@ -1,0 +1,20 @@
+
+
+[twoseq [
+	[keyon [A 1] 100] 96 [keyon [H 1] 100] 80 keyoff 16
+	[keyon [H 0] 100] 48 [keyon [E 1] 100] 48 96 keyoff
+	24 [keyon [D# 1] 100] 24 24 [keyon [E 1] 100] 24 [keyon [F# 1] 100] 80 keyoff 16
+	[keyon [E 1] 100] 24 [keyon [H 0] 100] 40 keyoff 8 [keyon [E 1] 100] 24 80 keyoff 16
+	[keyon [D 1] 100] 48 24 [keyon [E 1] 100] 24 [keyon [F# 1] 100] 24 [keyon [D 1] 100] 24 [keyon [H 0] 100] 24 [keyon [E 1] 100] 24 keyoff
+	24 [keyon [F# 1] 100] 24 [keyon [H 0] 100] 24 [keyon [E 1] 100] 24 [keyon [C# 1] 100] 80 keyoff 16
+	;;;;;;;;;;;;;;;;;;;;;
+	[keyon [A 1] 100] 96 [keyon [H 1] 100] 80 keyoff 16
+	[keyon [H 0] 100] 48 [keyon [E 1] 100] 48 96 keyoff
+	24 [keyon [D# 1] 100] 24 24 [keyon [E 1] 100] 24 [keyon [F# 1] 100] 80 keyoff 16
+	[keyon [E 1] 100] 24 [keyon [H 0] 100] 40 keyoff 8 [keyon [E 1] 100] 24 80 keyoff 16
+	[keyon [D 1] 100] 48 24 [keyon [E 1] 100] 24 [keyon [F# 1] 100] 24 [keyon [D 1] 100] 24 [keyon [H 0] 100] 24 [keyon [E 1] 100] 24 keyoff
+	24 [keyon [F# 1] 100] 24 [keyon [H 0] 100] 24 [keyon [E 1] 100] 24 [keyon [C# 1] 100] 80 keyoff 16
+]]
+
+[exit]
+

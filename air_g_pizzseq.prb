@@ -1,0 +1,226 @@
+
+[pizzseq [
+		; Pierwsza zwrotka
+		[keyon 50 100] 12 keyoff 12
+		[keyon 62 100] 12 keyoff 12
+		[keyon 61 100] 12 keyoff 12
+		[keyon 49 100] 12 keyoff 12
+		[keyon 47 100] 12 keyoff 12
+		[keyon 59 100] 12 keyoff 12
+		[keyon 57 100] 12 keyoff 12
+		[keyon 45 100] 12 keyoff 12
+		;;;;;;;;;;;;;;;;;;;;;;;;
+		[keyon 43 100] 12 keyoff 12
+		[keyon 55 100] 12 keyoff 12
+		[keyon 56 100] 12 keyoff 12
+		[keyon 44 100] 12 keyoff 12
+		[keyon 45 100] 12 keyoff 12
+		[keyon 57 100] 12 keyoff 12
+		[keyon 55 100] 12 keyoff 12
+		[keyon 43 100] 12 keyoff 12
+		;;;;;;;;;;;;;;;;;;;;;;;;
+		[keyon 42 100] 12 keyoff 12
+		[keyon 54 100] 12 keyoff 12
+		[keyon 52 100] 12 keyoff 12
+		[keyon 40 100] 12 keyoff 12
+		[keyon 39 100] 12 keyoff 12
+		[keyon 51 100] 12 keyoff 12
+		[keyon 47 100] 12 keyoff 12
+		[keyon 59 100] 12 keyoff 12
+		;;;;;;;;;;;;;;;;;;;;;;;;
+		[keyon 40 100] 12 keyoff 12
+		[keyon 52 100] 12 keyoff 12
+		[keyon 50 100] 12 keyoff 12
+		[keyon 38 100] 12 keyoff 12
+		[keyon 37 100] 12 keyoff 12
+		[keyon 49 100] 12 keyoff 12
+		[keyon 45 100] 12 keyoff 12
+		[keyon 57 100] 12 keyoff 12
+		;;;;;;;;;;;;;;;;;;;;;;;;
+		[keyon 50 100] 12 keyoff 12
+		[keyon 62 100] 12 keyoff 12
+		[keyon 61 100] 12 keyoff 12
+		[keyon 49 100] 12 keyoff 12
+		[keyon 47 100] 12 keyoff 12
+		[keyon 59 100] 12 keyoff 12
+		[keyon 56 100] 12 keyoff 12
+		[keyon 52 100] 12 keyoff 12
+		;;;;;;;;;;;;;;;;;;;;;;;;
+		[keyon 57 100] 12 keyoff 12
+		[keyon 50 100] 12 keyoff 12
+		[keyon 52 100] 12 keyoff 12
+		[keyon 40 100] 12 keyoff 12
+		[keyon 45 100] 10 keyoff 2
+		[keyon 47 100] 10 keyoff 2
+		[keyon 49 100] 10 keyoff 2
+		[keyon 50 100] 10 keyoff 2
+		[keyon 52 100] 10 keyoff 2
+		[keyon 55 100] 10 keyoff 2
+		[keyon 54 100] 10 keyoff 2
+		[keyon 52 100] 10 keyoff 2
+;	]]
+;	[pizzseq "speed" 80]
+;]
+;[[BuildSequencers]
+;	[pizzseq [
+		; Druga zwrotka
+		[keyon 50 100] 12 keyoff 12
+		[keyon 62 100] 12 keyoff 12
+		[keyon 61 100] 12 keyoff 12
+		[keyon 49 100] 12 keyoff 12
+		[keyon 47 100] 12 keyoff 12
+		[keyon 59 100] 12 keyoff 12
+		[keyon 57 100] 12 keyoff 12
+		[keyon 45 100] 12 keyoff 12
+		;;;;;;;;;;;;;;;;;;;;;;;;
+		[keyon 43 100] 12 keyoff 12
+		[keyon 55 100] 12 keyoff 12
+		[keyon 56 100] 12 keyoff 12
+		[keyon 44 100] 12 keyoff 12
+		[keyon 45 100] 12 keyoff 12
+		[keyon 57 100] 12 keyoff 12
+		[keyon 55 100] 12 keyoff 12
+		[keyon 43 100] 12 keyoff 12
+		;;;;;;;;;;;;;;;;;;;;;;;;
+		[keyon 42 100] 12 keyoff 12
+		[keyon 54 100] 12 keyoff 12
+		[keyon 52 100] 12 keyoff 12
+		[keyon 40 100] 12 keyoff 12
+		[keyon 39 100] 12 keyoff 12
+		[keyon 51 100] 12 keyoff 12
+		[keyon 47 100] 12 keyoff 12
+		[keyon 59 100] 12 keyoff 12
+		;;;;;;;;;;;;;;;;;;;;;;;;
+		[keyon 40 100] 12 keyoff 12
+		[keyon 52 100] 12 keyoff 12
+		[keyon 50 100] 12 keyoff 12
+		[keyon 38 100] 12 keyoff 12
+		[keyon 37 100] 12 keyoff 12
+		[keyon 49 100] 12 keyoff 12
+		[keyon 45 100] 12 keyoff 12
+		[keyon 57 100] 12 keyoff 12
+		;;;;;;;;;;;;;;;;;;;;;;;;
+		[keyon 50 100] 12 keyoff 12
+		[keyon 62 100] 12 keyoff 12
+		[keyon 61 100] 12 keyoff 12
+		[keyon 49 100] 12 keyoff 12
+		[keyon 47 100] 12 keyoff 12
+		[keyon 59 100] 12 keyoff 12
+		[keyon 56 100] 12 keyoff 12
+		[keyon 52 100] 12 keyoff 12
+		;;;;;;;;;;;;;;;;;;;;;;;;
+		[keyon 57 100] 12 keyoff 12
+		[keyon 50 100] 12 keyoff 12
+		[keyon 52 100] 12 keyoff 12
+		[keyon 40 100] 12 keyoff 12
+		[keyon 45 100] 12 keyoff 84
+		; Trzecia zwrotka
+		[keyon 45 100] 12 keyoff 12
+		[keyon 57 100] 12 keyoff 12
+		[keyon 55 100] 12 keyoff 12
+		[keyon 43 100] 12 keyoff 12
+		[keyon 42 100] 12 keyoff 12
+		[keyon 54 100] 12 keyoff 12
+		[keyon 52 100] 12 keyoff 12
+		[keyon 40 100] 12 keyoff 12
+		;;;;;;;;;;;;;;;;;;;;;;;;
+		[keyon 39 100] 12 keyoff 12
+		[keyon 51 100] 12 keyoff 12
+		[keyon 54 100] 12 keyoff 12
+		[keyon 47 100] 12 keyoff 12
+		[keyon 52 100] 12 keyoff 12
+		[keyon 64 100] 12 keyoff 12
+		[keyon 62 100] 12 keyoff 12
+		[keyon 50 100] 12 keyoff 12
+		;;;;;;;;;;;;;;;;;;;;;;;;
+		[keyon 49 100] 12 keyoff 12
+		[keyon 61 100] 12 keyoff 12
+		[keyon 59 100] 12 keyoff 12
+		[keyon 47 100] 12 keyoff 12
+		[keyon 46 100] 12 keyoff 12
+		[keyon 47 100] 12 keyoff 12
+		[keyon 49 100] 12 keyoff 12
+		[keyon 46 100] 12 keyoff 12
+		;;;;;;;;;;;;;;;;;;;;;;;;
+		[keyon 47 100] 12 keyoff 12
+		[keyon 55 100] 12 keyoff 12
+		[keyon 52 100] 12 keyoff 12
+		[keyon 54 100] 12 keyoff 12
+		[keyon 47 100] 12 keyoff 12
+		[keyon 59 100] 12 keyoff 12
+		[keyon 57 100] 12 keyoff 12
+		[keyon 45 100] 12 keyoff 12
+		;;;;;;;;;;;;;;;;;;;;;;;;
+		[keyon 44 100] 12 keyoff 12
+		[keyon 56 100] 12 keyoff 12
+		[keyon 54 100] 12 keyoff 12
+		[keyon 42 100] 12 keyoff 12
+		[keyon 40 100] 12 keyoff 12
+		[keyon 52 100] 12 keyoff 12
+		[keyon 50 100] 12 keyoff 12
+		[keyon 38 100] 12 keyoff 12
+		;;;;;;;;;;;;;;;;;;;;;;;;
+		[keyon 37 100] 12 keyoff 12
+		[keyon 49 100] 12 keyoff 12
+		[keyon 50 100] 12 keyoff 12
+		[keyon 52 100] 12 keyoff 12
+		[keyon 45 100] 12 keyoff 12
+		[keyon 57 100] 12 keyoff 12
+		[keyon 55 100] 12 keyoff 12
+		[keyon 43 100] 12 keyoff 12
+		;;;;;;;;;;;;;;;;;;;;;;;;
+		[keyon 42 100] 12 keyoff 12
+		[keyon 54 100] 12 keyoff 12
+		[keyon 55 100] 12 keyoff 12
+		[keyon 43 100] 12 keyoff 12
+		[keyon 44 100] 12 keyoff 12
+		[keyon 56 100] 12 keyoff 12
+		[keyon 57 100] 12 keyoff 12
+		[keyon 45 100] 12 keyoff 12
+		;;;;;;;;;;;;;;;;;;;;;;;;
+		[keyon 46 100] 12 keyoff 12
+		[keyon 58 100] 12 keyoff 12
+		[keyon 59 100] 12 keyoff 12
+		[keyon 47 100] 12 keyoff 12
+		[keyon 52 100] 12 keyoff 12
+		[keyon 64 100] 12 keyoff 12
+		[keyon 62 100] 12 keyoff 12
+		[keyon 50 100] 12 keyoff 12
+		;;;;;;;;;;;;;;;;;;;;;;;;
+		[keyon 49 100] 12 keyoff 12
+		[keyon 61 100] 12 keyoff 12
+		[keyon 57 100] 12 keyoff 12
+		[keyon 61 100] 12 keyoff 12
+		[keyon 62 100] 12 keyoff 12
+		[keyon 50 100] 12 keyoff 12
+		[keyon 48 100] 12 keyoff 12
+		[keyon 60 100] 12 keyoff 12
+		;;;;;;;;;;;;;;;;;;;;;;;;
+		[keyon 59 100] 12 keyoff 12
+		[keyon 47 100] 12 keyoff 12
+		[keyon 45 100] 12 keyoff 12
+		[keyon 57 100] 12 keyoff 12
+		[keyon 55 100] 12 keyoff 12
+		[keyon 43 100] 12 keyoff 12
+		[keyon 42 100] 12 keyoff 12
+		[keyon 54 100] 12 keyoff 12
+		;;;;;;;;;;;;;;;;;;;;;;;;
+		[keyon 52 100] 12 keyoff 12
+		[keyon 40 100] 12 keyoff 12
+		[keyon 38 100] 12 keyoff 12
+		[keyon 50 100] 12 keyoff 12
+		[keyon 49 100] 12 keyoff 12
+		[keyon 45 100] 12 keyoff 12
+		[keyon 50 100] 12 keyoff 12
+		[keyon 55 100] 12 keyoff 12
+		;;;;;;;;;;;;;;;;;;;;;;;;
+		[keyon 57 100] 12 keyoff 12
+		[keyon 55 100] 12 keyoff 12
+		[keyon 57 100] 12 keyoff 12
+		[keyon 45 100] 12 keyoff 12
+		[keyon 38 100] 12 keyoff 84
+]]
+
+
+[exit]
+

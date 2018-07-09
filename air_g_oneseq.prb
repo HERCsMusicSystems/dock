@@ -1,0 +1,20 @@
+
+[oneseq [
+	[keyon [D 2] 100] 96 96 keyoff
+	48 [keyon [H 1] 100] 48 [keyon [A 1] 100] 96 keyoff
+	24 [keyon [C 2] 100] 12 [keyon [H 1] 100] 12 [keyon [C 2] 100] 24 keyoff
+		[keyon [A 2] 100] 12 [keyon [C 2] 100] 12 [keyon [H 1] 100] 96 keyoff
+	24 [keyon [E 2] 100] 12 [keyon [D 2] 100] 12 [keyon [E 2] 100] 12 [keyon [F# 2] 100] 12 [keyon [G 2] 100] 12 [keyon [E 2] 100] 12 [keyon [A 1] 100] 80 keyoff 16
+	[keyon [A 1] 100] 96 24 [keyon [G# 1] 100] 12 [keyon [A 1] 100] 12 [keyon [H 1] 100] 24 [keyon [G# 1] 100] 24
+	[keyon [A 1] 100] 96 80 keyoff 16
+	;;;;;;;;;;;;;;;;;;;
+	[keyon [D 2] 100] 96 96 keyoff
+	48 [keyon [H 1] 100] 48 [keyon [A 1] 100] 96 keyoff
+	24 [keyon [C 2] 100] 12 [keyon [H 1] 100] 12 [keyon [C 2] 100] 24 keyoff
+		[keyon [A 2] 100] 12 [keyon [C 2] 100] 12 [keyon [H 1] 100] 96 keyoff
+	24 [keyon [E 2] 100] 12 [keyon [D 2] 100] 12 [keyon [E 2] 100] 12 [keyon [F# 2] 100] 12 [keyon [G 2] 100] 12 [keyon [E 2] 100] 12 [keyon [A 1] 100] 80 keyoff 16
+	[keyon [A 1] 100] 96 24 [keyon [G# 1] 100] 12 [keyon [A 1] 100] 12 [keyon [H 1] 100] 24 [keyon [G# 1] 100] 24
+	[keyon [A 1] 100] 96 80 keyoff 16
+]]
+
+[exit]

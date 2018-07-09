@@ -1,0 +1,23 @@
+
+[BuildPhobos 2 Zero pizzcb *]
+[Restore Zero "Phobos/air_pizz.txt"]
+
+[BuildPhobos 2 One onecb *] [Restore 1 "Phobos/air_strings_3.txt"] ;[onecb mono] [Lunar 4096 One portamento time]
+
+[BuildPhobos 2 Two twocb *] [Restore 2 "Phobos/air_strings_3.txt"] ;[twocb mono] [Lunar 5000 Two portamento time]
+
+[[@ lunar . FUNCTION_KEY 1] [BuildAudio]]
+[[@ lunar . FUNCTION_KEY 2] [RemoveAudio]]
+[[@ lunar . FUNCTION_KEY 5] [seq "trigger" 128]]
+[[@ lunar . FUNCTION_KEY 6] [seq "trigger" 0]]
+
+[multitrack seq [pizzseq 0] [oneseq 1] [twoseq 2]]
+
+[seq "speed" 80]
+
+[batch "air_g_pizzseq.prb"]
+[batch "air_g_oneseq.prb"]
+[batch "air_g_twoseq.prb"]
+
+[exit]
+
