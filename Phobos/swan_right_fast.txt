@@ -1,23 +1,23 @@
 Phobos
 poly
-[core volume]12800.0
-[core pan]0.0
+[core volume]8960.0
+[core pan]-6272.0
 [core chorus level]0.0
 [core chorus time]1024.0
 [core chorus bias]0.0
 [core chorus speed]0.0
 [core chorus phase]0.0
 [core chorus amp]8192.0
-[core delay balance]-6912.0
-[core delay feedback]8192.0
-[core delay time]8192.0
+[core delay gateway]16384.0
+[core delay balance]-384.0
+[core delay feedback]10752.0
+[core delay time]5632.0
 [core delay highdamp]0.0
 [core X]8192.0
 [core Y]8192.0
 [core auto control]0.0
 [core auto speed]0.0
 [core pitch]0.0
-[core velocity left]-128
 [arpeggiator speed]140.0
 [arpeggiator subdivision]24.0
 [arpeggiator active]0.0
@@ -156,6 +156,9 @@ poly
 [operator 4 sens amp velocity BP]0.0
 [operator 4 sens amp velocity left]0.0
 [operator 4 sens amp velocity right]0.0
+[core velocity BP]12800.0
+[core velocity left]-64.0
+[core velocity right]0.0
 [noise amp]-16384.0
 [noise time1]0.0
 [noise time2]0.0
@@ -176,6 +179,9 @@ poly
 [filter sens key BP]0.0
 [filter sens key left]0.0
 [filter sens key right]0.0
+[filter sens velocity BP]12800.0
+[filter sens velocity left]0.0
+[filter sens velocity right]0.0
 [adsr amp attack]4992.0
 [adsr amp decay]7808.0
 [adsr amp sustain]-16384.0
@@ -194,7 +200,7 @@ poly
 [adsr freq egscal BP]0.0
 [adsr freq egscal left]0.0
 [adsr freq egscal right]0.0
-[portamento porta]1.0
+[portamento porta]0.0
 [portamento time]3584.0
 [portamento legato]0.0
 [portamento ramp]0.0
