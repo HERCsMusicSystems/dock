@@ -1,0 +1,47 @@
+
+[seq3 [
+	; PROGRAM 1
+		72 [keyon [H 0] 100] [keyon [D 1] 100] [keyon [G 1] 100] 72
+	; PROGRAM 2
+		24 keyoff 48 72
+	; PROGRAM 3
+		[keyon [C 1] 100] [keyon [E 1] 100] [keyon [A 1] 100] 144
+	; PROGRAM 4
+		24 keyoff 72
+		[keyon [A 0] 100] [keyon [D 1] 100] [keyon [F# 1] 100] 72 keyoff
+	; PROGRAM 5
+		[keyon [H 0] 100] [keyon [D 1] 100] [keyon [G 1] 100] 144
+	; PROGRAM 6
+		48 keyoff 24 72
+	; PROGRAM 7
+		[keyon [A# 0] 100] [keyon [C# 1] 100] [keyon [E 1] 100] 72 keyoff 72
+	; PROGRAM 8
+		[keyon [H 0] 100] [keyon [D 1] 100] [keyon [F# 1] 100] 72 keyoff 72
+	4096
+]]
+
+[exit]
+
+
+
+
+
+[seq3 [
+	; PROGRAM 1
+		72 [keyon [B 0] 100] [keyon [D 1] 100] [keyon [G 1] 100] 72
+	; PROGRAM 2
+		48 keyoff [keyon [B 0] 100] [keyon [D 1] 100] [keyon [G 1] 100] 24 72 keyoff
+	; PROGRAM 3
+		[keyon [C 1] 100] [keyon [E 1] 100] [keyon [A 1] 100] 72 keyoff
+		[keyon [C 2] 100] [keyon [E 2] 100] [keyon [A 2] 100] 72 keyoff
+	; PROGRAM 4
+		72 [keyon [A 1] 100] [keyon [D 1] 100] [keyon [F# 1] 100] 72 keyoff
+	; PROGRAM 5
+		[keyon [B 1] 100] [keyon [D 2] 100] [keyon [G 2] 100] 144 keyoff
+	; PROGRAM 5
+		[keyon [B 0] 100] [keyon [D 1] 100] [keyon [G 1] 100] 144 keyoff
+	4096
+]]
+
+[exit]
+
