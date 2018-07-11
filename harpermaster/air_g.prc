@@ -258,7 +258,7 @@ program air_g [
 ]
 
 end := [
-	[BuildPhobos 2 Zero pizzcb *]
+	[BuildPhobos 3 Zero pizzcb *]
 	[Restore Zero "Phobos/air_pizz.txt"]
 	[BuildSequencers]
 	[CommandCentre commander]

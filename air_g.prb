@@ -11,6 +11,16 @@
 [[@ lunar . FUNCTION_KEY 5] [seq "trigger" 128]]
 [[@ lunar . FUNCTION_KEY 6] [seq "trigger" 0]]
 
+
+[[ctrl keyon 0 95 127] [seq "trigger" 0]]
+[[ctrl keyon 0 94 127] [seq "trigger" 128]]
+[[ctrl keyon 0 93 127] [seq "trigger" 256]]
+[[ctrl keyon 0 100 127] [CommanderHardwareAction]]
+[[ctrl control *channel 47 69] [seq "trigger" 0]]
+[[ctrl control *channel 47 68] [seq "trigger" 128]]
+[[ctrl control *channel 47 67] [seq "trigger" 256]]
+[[ctrl : *command] [income_midi : *command]]
+
 [multitrack seq [pizzseq 0] [oneseq 1] [twoseq 2]]
 
 [seq "speed" 80]
@@ -18,6 +28,7 @@
 [batch "air_g_pizzseq.prb"]
 [batch "air_g_oneseq.prb"]
 [batch "air_g_twoseq.prb"]
+[show "Twoseq loaded."]
 
 [exit]
 

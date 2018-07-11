@@ -58,11 +58,7 @@
 		[keyon 55 100] 10 keyoff 2
 		[keyon 54 100] 10 keyoff 2
 		[keyon 52 100] 10 keyoff 2
-;	]]
-;	[pizzseq "speed" 80]
-;]
-;[[BuildSequencers]
-;	[pizzseq [
+
 		; Druga zwrotka
 		[keyon 50 100] 12 keyoff 12
 		[keyon 62 100] 12 keyoff 12
@@ -114,6 +110,7 @@
 		[keyon 52 100] 12 keyoff 12
 		[keyon 40 100] 12 keyoff 12
 		[keyon 45 100] 12 keyoff 84
+
 		; Trzecia zwrotka
 		[keyon 45 100] 12 keyoff 12
 		[keyon 57 100] 12 keyoff 12
@@ -223,4 +220,5 @@
 
 
 [exit]
+
 
