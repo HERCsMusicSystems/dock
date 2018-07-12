@@ -8,7 +8,8 @@
 [import "phobos"]
 [BuildPhobos 3] [Restore 0 "Phobos/swan_right_fast.txt"]
 [BuildPhobos 3] [Restore 1 "Phobos/swan_right.txt"]
-[BuildPhobos 6] [Restore 2 "Phobos/swan_strings_2.txt"]
+[BuildPhobos 8] [Restore 2 "Phobos/swan_strings_2.txt"]
+[batch "alarm.prb"]
 ;[batch "phobos.prb"]
 ;[import "alarm"]
 ;[import "microdot"]
@@ -25,13 +26,14 @@
 ;[[ctrl keyon * *key *] [show [keyon *key 100]] [fw "			" [[keyon *key 100]] " 12 "]]
 ;[[ctrl programchange * *program] [show [program *program]] [fw "	; PROGRAM " [*program] "\n"]]
 
-[[ctrl keyon 0 95 127] [seq "trigger" 0]]
-[[ctrl keyon 0 94 127] [seq "trigger" 128]]
-[[ctrl keyon 0 93 127] [seq "trigger" 256]]
-[[ctrl keyon 0 100 127] [CommanderHardwareAction]]
-[[ctrl control *channel 47 69] [seq "trigger" 0]]
-[[ctrl control *channel 47 68] [seq "trigger" 128]]
-[[ctrl control *channel 47 67] [seq "trigger" 256]]
+[[hctrl keyon 0 95 127] [seq "trigger" 0]]
+[[hctrl keyon 0 94 127] [seq "trigger" 128]]
+[[hctrl keyon 0 93 127] [seq "trigger" 256]]
+[[hctrl keyon 0 100 127] [CommanderHardwareAction]]
+[[hctrl control *channel 47 69] [seq "trigger" 0]]
+[[hctrl control *channel 47 68] [seq "trigger" 128]]
+[[hctrl control *channel 47 67] [seq "trigger" 256]]
+
 [[ctrl : *command] [income_midi : *command]]
 
 [setup]
@@ -43,6 +45,7 @@
 
 
 [multitrack seq [seq1 0] [seq2 1] [seq3 2] pseq]
+[multitrack fake    [seq11 0] [seq22 1] [seq33 2]]
 
 [pseq [[show "BAR"] 48 48 48]]
 

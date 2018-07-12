@@ -32,9 +32,11 @@ program setup [audio_setup midi_setup ctrl hctrl mdi1 mdi2 mdi3 setup close audi
 
 [[midi_setup]
 	[TRY [midi mdi1 ctrl]]
+	[TRY [midi mdi1 "/dev/snd/midiC1D0" ctrl]]
+	[TRY [midi mdi1 "/dev/snd/midiC2D0" ctrl]]
 	[TRY [midi mdi1 "/dev/snd/midiC3D0" ctrl]]
-	[TRY [midi mdi2 "/dev/snd/midiC3D0" ctrl]]
-	[TRY [midi mdi2 "/dev/snd/midiC4D0" ctrl]]
+	[TRY [midi mdi2 "/dev/snd/midiC3D0" hctrl]]
+	[TRY [midi mdi2 "/dev/snd/midiC4D0" hctrl]]
 	[TRY [midi mdi1 "Keystation 88" ctrl]]
 	[TRY [midi mdi2 "MIDIIN2 (Keystation 88)" ctrl]]
 	[TRY [midi mdi3 "/dev/ttyACM0" hctrl]]
@@ -43,7 +45,6 @@ program setup [audio_setup midi_setup ctrl hctrl mdi1 mdi2 mdi3 setup close audi
 
 [[hctrl programchange 0 *program] [programs *program *v] [action *program *v] [TRY [mdi3 control 0 *program *v]]]
 [[hctrl activesensing]]
-[[hctrl : *command] [show *command]]
 
 auto := [[ARRAY program_data 128]]
 

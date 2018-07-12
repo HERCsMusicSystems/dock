@@ -1,5 +1,5 @@
 
-[BuildPhobos 2 Zero pizzcb *]
+[BuildPhobos 4 Zero pizzcb *]
 [Restore Zero "Phobos/air_pizz.txt"]
 
 [BuildPhobos 2 One onecb *] [Restore 1 "Phobos/air_strings_3.txt"] ;[onecb mono] [Lunar 4096 One portamento time]

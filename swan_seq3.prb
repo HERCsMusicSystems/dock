@@ -7,7 +7,7 @@
 	; PROGRAM 3
 		[keyon [C 1] 100] [keyon [E 1] 100] [keyon [A 1] 100] 144
 	; PROGRAM 4
-		24 keyoff 72
+		24 keyoff 48
 		[keyon [A 0] 100] [keyon [D 1] 100] [keyon [F# 1] 100] 72 keyoff
 	; PROGRAM 5
 		[keyon [H 0] 100] [keyon [D 1] 100] [keyon [G 1] 100] 144
@@ -16,8 +16,49 @@
 	; PROGRAM 7
 		[keyon [A# 0] 100] [keyon [C# 1] 100] [keyon [E 1] 100] 72 keyoff 72
 	; PROGRAM 8
+		144 ;[keyon [H 0] 100] [keyon [D 1] 100] [keyon [F# 1] 100] 72 keyoff 72
+	; PROGRAM 9
 		[keyon [H 0] 100] [keyon [D 1] 100] [keyon [F# 1] 100] 72 keyoff 72
-	4096
+	; PROGRAM 10
+		144 ;[keyon [H 0] 100] [keyon [D 1] 100] [keyon [G 1] 100] 144 [keyoff [H 0]]
+	; PROGRAM 11
+		72 [keyon [C 1] 100] [keyon [D 1] 100] [keyon [F# 1] 100] 72 keyoff
+	; PROGRAM 12
+		144
+	; PROGRAM 13
+		72 [keyon [Hb 0] 100] [keyon [C 1] 100] [keyon [E 1] 100] 72 keyoff
+	; PROGRAM 14
+		144
+	; PROGRAM 15
+		[keyon [A 0] 100] [keyon [D 1] 100] [keyon [F# 1] 100] 72 keyoff
+		[keyon [A 0] 100] [keyon [C 1] 100] [keyon [E 1] 100] 72 keyoff
+	; PROGRAM 16
+		72 [keyon [A 0] 100] [keyon [C# 1] 100] [keyon [E 1] 100] 72 keyoff
+	; PROGRAM 17
+		72 [keyon [A 0] 100] [keyon [D 1] 100] [keyon [F# 1] 100] 72 keyoff
+	; PROGRAM 18
+		144
+	; PROGRAM 19
+		[keyon [A 0] 100] [keyon [C 1] 100] [keyon [E 1] 100] 72 keyoff 72
+	; PROGRAM 20
+		144
+	; PROGRAM 21
+		[keyon [H 0] 100] [keyon [D 1] 100] [keyon [F 1] 100] 72 keyoff
+		[keyon [D 1] 100] [keyon [E 1] 100] [keyon [G# 1] 100] 72 keyoff
+	; PROGRAM 22
+		144
+	; PROGRAM 23
+		144
+	; PROGRAM 24
+		[keyon [H 0] 100] [keyon [D 1] 100] [keyon [G 1] 100] 72 24 keyoff 48
+	; PROGRAM 25
+		48 [keyon [A 0] 100] [keyon [E 1] 100] [keyon [C 1] 100] 72 keyoff 24
+	; PROGRAM 26
+		144
+	; PROGRAM 27
+		48 [keyon [H 0] 100] [keyon [D 1] 100] [keyon [G 1] 100] 24 72 keyoff
+	; PROGRAM 28
+		144
 ]]
 
 [exit]
