@@ -1,0 +1,25 @@
+
+[import "studio" "lunar" "setup" "phobos"]
+
+[BuildPhobos 8] [Restore 0 "Phobos/vocalise_drone.txt"]
+
+[batch "VonFormanEditor.prb"]
+
+;[prompt "VOCALISE => "]
+
+[[ctrl : *command] [income_midi : *command]]
+
+[[hctrl keyon * 100 127] [CommanderHardwareAction]]
+[[hctrl : *command] [show hctrl *command]]
+
+[setup]
+
+[CommandCentre commander]
+
+[gtk_command]
+
+[TRY [close]]
+[TRY [CloseAllMoons]]
+
+[exit]
+
