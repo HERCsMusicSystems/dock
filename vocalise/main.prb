@@ -10,7 +10,23 @@
 [[ctrl : *command] [income_midi : *command]]
 
 [[hctrl keyon * 100 127] [CommanderHardwareAction]]
+[[hctrl keyon * 93 127] [seq "trigger" 256]]
+[[hctrl keyon * 94 127] [seq "trigger" 128]]
+[[hctrl keyon * 95 127] [seq "trigger" 0]]
 [[hctrl : *command] [show hctrl *command]]
+
+[[FUNCTION_KEY 1] [seq "trigger" 0]]
+[[FUNCTION_KEY 2] [seq "trigger" 128]]
+[[FUNCTION_KEY 3] [seq "trigger" 256]]
+
+
+[multitrack seq [drone 0]]
+
+[seq "speed" 38]
+
+
+[batch "vocalise/drone_seq.prb"]
+
 
 [setup]
 
