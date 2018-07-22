@@ -2,7 +2,9 @@
 [import "studio" "lunar" "setup" "phobos"]
 
 [BuildPhobos 4] [Restore 0 "Phobos/vocalise_drone.txt"]
-[BuildPhobos 4] ;[Restore 1 "Phobos/vocalise_counter_1.txt"]
+[BuildPhobos 4]
+	;[Restore 1 "Phobos/vocalise_counter_2.txt"]
+	[Restore 1 "Phobos/vocalise_drone.txt"]
 
 [batch "VonFormanEditor.prb"]
 
@@ -12,21 +14,23 @@
 
 [[hctrl keyon * 100 127] [CommanderHardwareAction]]
 [[hctrl keyon * 93 127] [seq "trigger" 256]]
-[[hctrl keyon * 94 127] [times 24 0 *position] [drone rewind *position] [show [rewind *position]] [seq "trigger" 128]]
+[[hctrl keyon * 94 127] [times 24 4 *position] [drone rewind *position] [counter1 rewind *position] [show [rewind *position]] [seq "trigger" 128]]
 [[hctrl keyon * 95 127] [seq "trigger" 0]]
 [[hctrl : *command] [show hctrl *command]]
 
 [[FUNCTION_KEY 1] [seq "trigger" 0]]
-[[FUNCTION_KEY 2] [times 24 254 *position] [drone rewind *position] [show [rewind *position]] [seq "trigger" 128]]
+[[FUNCTION_KEY 2] [times 24 4 *position] [drone rewind *position] [counter1 rewind *position] [show [rewind *position]] [seq "trigger" 128]]
 [[FUNCTION_KEY 3] [seq "trigger" 256]]
 
 
-[multitrack seq [drone 0]]
+[multitrack seq [drone 0] [counter1 1]]
+;[multitrack backup [counter1 1]]
 
 [seq "speed" 38]
 
 
 [batch "vocalise/drone_seq.prb"]
+[batch "vocalise/counter_1_seq.prb"]
 
 
 [setup]

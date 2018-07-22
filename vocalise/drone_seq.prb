@@ -33,40 +33,40 @@
 	[keyon [C 1] 90] [keyon [E 1] 90] [keyon [G 1] 90] 1 keyoff 11
 	; BAR 4
 	[keyon [H 0] 100] [keyon [E 1] 100] [keyon [G 1] 100] 1 keyoff 11
-	[keyon [H 0] 100] [keyon [E 1] 100] [keyon [G 1] 100] 1 keyoff 11
-	[keyon [H 0] 100] [keyon [E 1] 100] [keyon [G 1] 100] 1 keyoff 11
-	[keyon [H 0] 100] [keyon [E 1] 100] [keyon [G 1] 100] 1 keyoff 11
-	[keyon [H 0] 100] [keyon [E 1] 100] [keyon [A 1] 100] 1 keyoff 11
-	[keyon [H 0] 100] [keyon [E 1] 100] [keyon [A 1] 100] 1 keyoff 11
-	[keyon [H 0] 100] [keyon [D# 1] 100] [keyon [A 1] 100] 1 keyoff 11
-	[keyon [H 0] 100] [keyon [D# 1] 100] [keyon [A 1] 100] 1 keyoff 11
+	[keyon [H 0] 90] [keyon [E 1] 90] [keyon [G 1] 90] 1 keyoff 11
+	[keyon [H 0] 80] [keyon [E 1] 80] [keyon [G 1] 80] 1 keyoff 11
+	[keyon [H 0] 70] [keyon [E 1] 70] [keyon [G 1] 70] 1 keyoff 11
+	[keyon [H 0] 60] [keyon [E 1] 60] [keyon [A 1] 60] 1 keyoff 11
+	[keyon [H 0] 70] [keyon [E 1] 70] [keyon [A 1] 70] 1 keyoff 11
+	[keyon [H 0] 90] [keyon [D# 1] 90] [keyon [A 1] 90] 1 keyoff 11
+	[keyon [H 0] 80] [keyon [D# 1] 80] [keyon [A 1] 80] 1 keyoff 11
 	; BAR 5
 	[keyon [H 0] 100] [keyon [D 1] 100] [keyon [A 1] 100] 1 keyoff 11
-	[keyon [H 0] 100] [keyon [D 1] 100] [keyon [A 1] 100] 1 keyoff 11
-	[keyon [H 0] 100] [keyon [D 1] 100] [keyon [G# 1] 100] 1 keyoff 11
-	[keyon [H 0] 100] [keyon [D 1] 100] [keyon [G# 1] 100] 1 keyoff 11
-	[keyon [C 1] 100] [keyon [E 1] 100] [keyon [G 1] 100] 1 keyoff 11
-	[keyon [C 1] 100] [keyon [E 1] 100] [keyon [G 1] 100] 1 keyoff 11
-	[keyon [C 1] 100] [keyon [D 1] 100] [keyon [F# 1] 100] 1 keyoff 11
-	[keyon [C 1] 100] [keyon [D 1] 100] [keyon [F# 1] 100] 1 keyoff 11
+	[keyon [H 0] 80] [keyon [D 1] 80] [keyon [A 1] 80] 1 keyoff 11
+	[keyon [H 0] 90] [keyon [D 1] 90] [keyon [G# 1] 90] 1 keyoff 11
+	[keyon [H 0] 70] [keyon [D 1] 70] [keyon [G# 1] 70] 1 keyoff 11
+	[keyon [C 1] 80] [keyon [E 1] 80] [keyon [G 1] 80] 1 keyoff 11
+	[keyon [C 1] 60] [keyon [E 1] 60] [keyon [G 1] 60] 1 keyoff 11
+	[keyon [C 1] 90] [keyon [D 1] 90] [keyon [F# 1] 90] 1 keyoff 11
+	[keyon [C 1] 70] [keyon [D 1] 70] [keyon [F# 1] 70] 1 keyoff 11
 	; BAR 6
 	[keyon [H 0] 100] [keyon [E 1] 100] [keyon [G 1] 100] 1 keyoff 11
-	[keyon [H 0] 100] [keyon [E 1] 100] [keyon [G 1] 100] 1 keyoff 11
-	[keyon [C 1] 100] [keyon [G 1] 100] [keyon [A 1] 100] 1 keyoff 11
-	[keyon [C 1] 100] [keyon [F 1] 100] [keyon [A 1] 100] 1 keyoff 11
-	[keyon [H 0] 100] [keyon [E 1] 100] [keyon [H 1] 100] 1 keyoff 11
-	[keyon [H 0] 100] [keyon [E 1] 100] [keyon [H 1] 100] 1 keyoff 11
-	[keyon [H 0] 100] [keyon [D# 1] 100] [keyon [A 1] 100] 1 keyoff 11
-	[keyon [H 0] 100] [keyon [D# 1] 100] [keyon [A 1] 100] 1 keyoff 11
+	[keyon [H 0] 80] [keyon [E 1] 80] [keyon [G 1] 80] 1 keyoff 11
+	[keyon [C 1] 90] [keyon [G 1] 90] [keyon [A 1] 90] 1 keyoff 11
+	[keyon [C 1] 70] [keyon [F 1] 70] [keyon [A 1] 70] 1 keyoff 11
+	[keyon [H 0] 80] [keyon [E 1] 80] [keyon [H 1] 80] 1 keyoff 11
+	[keyon [H 0] 60] [keyon [E 1] 60] [keyon [H 1] 60] 1 keyoff 11
+	[keyon [H 0] 70] [keyon [D# 1] 70] [keyon [A 1] 70] 1 keyoff 11
+	[keyon [H 0] 60] [keyon [D# 1] 60] [keyon [A 1] 60] 1 keyoff 11
 	; BAR 7
-	[keyon [H 0] 100] [keyon [E 1] 100] [keyon [G 1] 100] 1 keyoff 11
-	[keyon [H 0] 100] [keyon [E 1] 100] [keyon [G 1] 100] 1 keyoff 11
-	[keyon [H 0] 100] [keyon [E 1] 100] [keyon [G 1] 100] 1 keyoff 11
-	[keyon [E 1] 100] [keyon [G 1] 100] [keyon [H 1] 100] 1 keyoff 11
-	[keyon [E 1] 100] [keyon [G 1] 100] [keyon [H 1] 100] 1 keyoff 11
-	[keyon [E 1] 100] [keyon [G 1] 100] [keyon [H 1] 100] 1 keyoff 11
-	[keyon [E 1] 100] [keyon [G 1] 100] [keyon [H 1] 100] 1 keyoff 11
-	[keyon [E 1] 100] [keyon [G 1] 100] [keyon [H 1] 100] 1 keyoff 11
+	[keyon [H 0] 80] [keyon [E 1] 80] [keyon [G 1] 80] 1 keyoff 11
+	[keyon [H 0] 70] [keyon [E 1] 70] [keyon [G 1] 70] 1 keyoff 11
+	[keyon [H 0] 60] [keyon [E 1] 60] [keyon [G 1] 60] 1 keyoff 11
+	[keyon [E 1] 50] [keyon [G 1] 50] [keyon [H 1] 50] 1 keyoff 11
+	[keyon [E 1] 60] [keyon [G 1] 60] [keyon [H 1] 60] 1 keyoff 11
+	[keyon [E 1] 70] [keyon [G 1] 70] [keyon [H 1] 70] 1 keyoff 11
+	[keyon [E 1] 80] [keyon [G 1] 80] [keyon [H 1] 80] 1 keyoff 11
+	[keyon [E 1] 90] [keyon [G 1] 90] [keyon [H 1] 90] 1 keyoff 11
 	; BAR 8
 	[keyon [E 1] 100] [keyon [G 1] 100] [keyon [H 1] 100] 1 keyoff 11
 	[keyon [E 1] 100] [keyon [G 1] 100] [keyon [H 1] 100] 1 keyoff 11
