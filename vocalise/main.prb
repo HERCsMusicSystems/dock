@@ -1,10 +1,12 @@
 
-[import "studio" "lunar" "setup" "phobos"]
+[import "studio" "lunar" "setup" "phobos" "doctor"]
 
 [BuildPhobos 4] [Restore 0 "Phobos/vocalise_drone.txt"]
 [BuildPhobos 4]
 	;[Restore 1 "Phobos/vocalise_counter_2.txt"]
 	[Restore 1 "Phobos/vocalise_drone.txt"]
+
+[wave sea "Doctor/fale_loop.wav"] [BuildDoctor 1 sea]
 
 [batch "VonFormanEditor.prb"]
 
