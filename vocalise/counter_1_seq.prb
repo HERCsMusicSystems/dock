@@ -1,0 +1,48 @@
+
+
+[counter1 [
+	; BAR 0
+	96
+	; BAR 1
+	48 [keyon [D 1] 70] 24 12 keyoff 12
+	; BAR 2
+	[keyon [C 1] 70] 24 12 keyoff 12
+	; BAR 3
+	[keyon [H 0] 70] 48 12 keyoff 12 [keyon [A 0] 70] 20 keyoff 4
+	; BAR 4
+	[keyon [G 0] 70] 24 12 keyoff 12 [keyon [F# 0] 70] 18 keyoff 6 [keyon [F 0] 70] 18 keyoff 6
+	; BAR 5
+	[keyon [E 0] 70] 24 12 keyoff 12 [keyon [A -1] 70] 18 keyoff 6 [keyon [D 0] 70] 18 keyoff 6
+	; BAR 6
+	[keyon [E 0] 70] 24 keyoff 12 [keyon [A 0] 60] 10 keyoff 2 [keyon [G 0] 60] 20 keyoff 4 [keyon [F# 0] 60] 20 keyoff 4
+	; BAR 6
+	[keyon [E 0] 50] 24 12 keyoff 12 48
+]]
+
+
+[exit]
+
+[counter1 [
+	; BAR 0
+	96
+	; BAR 1
+	24
+	[keyon [E 1] 100] 20 4 [keyon [D 1] 100] 24 12 keyoff 12 keyoff
+	; BAR 2
+	[keyon [C 1] 100] 24 12 12
+	; BAR 3
+	[keyon [H 0] 100] 48 keyoff 24 [keyon [A 0] 100] 24
+	; BAR 4
+	[keyon [G 0] 100] 24 12 keyoff 12 [keyon [F# 0] 100] 24 [keyon [F 0] 100] 24
+	; BAR 5
+	[keyon [E 0] 100] 24 12 keyoff 12 [keyon [A -1] 100] 24 [keyon [D 0] 100] 24
+	; BAR 6
+	[keyon [E 0] 100] 24 keyoff 12 [keyon [A 0] 100] 12 [keyon [G 0] 100] 24
+		[keyon [F# 0] 100] 24
+	; BAR 7
+	[keyon [E 0] 100] 48 24 keyoff 24
+	15000
+]]
+
+[exit]
+
