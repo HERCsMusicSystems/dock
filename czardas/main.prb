@@ -11,19 +11,18 @@
 [[ctrl : *command] [income_midi : *command]]
 
 [[hctrl keyon * 100 127] [CommanderHardwareAction]]
-[[hctrl keyon * 93 127] [seq2 "trigger" 256]]
+[[hctrl keyon * 93 127] [largo "trigger" 256]]
 ;[[hctrl keyon * 94 127] [times 24 4 *position] [drone rewind *position] [counter1 rewind *position] [show [rewind *position]] [seq "trigger" 128]]
-[[hctrl keyon * 95 127] [seq2 "trigger" 0]]
+[[hctrl keyon * 95 127] [largo "trigger" 0]]
 [[hctrl : *command] [show hctrl *command]]
 
-[[FUNCTION_KEY 1] [seq2 "trigger" 0]]
+[[FUNCTION_KEY 1] [largo "trigger" 0]]
 ;[[FUNCTION_KEY 2] [times 24 4 *position] [drone rewind *position] [counter1 rewind *position] [show [rewind *position]] [seq "trigger" 128]]
-[[FUNCTION_KEY 3] [seq2 "trigger" 256]]
+[[FUNCTION_KEY 3] [largo "trigger" 256]]
 
 
-;[multitrack seq [drone 0] [counter1 1]]
-;[multitrack backup [counter1 1]]
-
+[multitrack largo [bass_largo 0] [acco_largo 1]]
+[largo "speed" 70]
 [multitrack seq1 [bass1 0] [acco1 1]]
 [multitrack seq2 [bass2 0] [acco2 1] pro2]
 
@@ -36,12 +35,14 @@
 	[show 'Last bar'] [seq2 atempo] 48 48
 ]]
 
+[batch "czardas/bass_largo.prb"] [batch "czardas/accordion_largo.prb"]
 [batch "czardas/bass_seq_1.prb"]
 [batch "czardas/bass_seq_2.prb"]
 [batch "czardas/accordion_seq_1.prb"]
 [batch "czardas/accordion_seq_2.prb"]
 ;[bass rewind 768]
 ;[bass rewind 1536]
+[bass_largo rewind 864] [acco_largo rewind 864]
 
 [seq1 "speed" 120]
 [seq2 "speed" 160]

@@ -1,0 +1,38 @@
+[bass_largo [
+	[keyon [D 0] 90] [keyon [D -1] 80] 48 keyoff 48
+	[keyon [D 0] 90] [keyon [D -1] 80] 48 keyoff 48
+	[keyon [G -1] 90] [keyon [G -2] 80] 48 keyoff 48
+	[keyon [C# 0] 90] [keyon [C# -1] 80] 36 keyoff 12
+	[keyon [A -1] 90] [keyon [A -2] 80] 36 keyoff 12
+	[keyon [D 0] 90] [keyon [D -1] 80] 48 keyoff 48
+	[keyon [D 0] 90] [keyon [D -1] 80] 48 keyoff 48
+	[keyon [G -1] 90] [keyon [G -2] 80] 48 keyoff 48
+	[keyon [C# 0] 90] [keyon [C# -1] 80] 36 keyoff 12
+	[keyon [A -1] 90] [keyon [A -2] 80] 36 keyoff 12
+	[keyon [D 0] 90] [keyon [D -1] 80] 18 keyoff 6
+	[keyon [A -1] 90] [keyon [A -2] 80] 18 keyoff 6
+	[keyon [D 0] 90] [keyon [D -1] 80] 36 keyoff 12
+
+	;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+	[keyon [E 0] 90] [keyon [E -1] 80] 36 keyoff 12
+		[keyon [C 0] 90] [keyon [C -1] 80] 36 keyoff 12
+	[keyon [F 0] 90] [keyon [F -1] 80] 36 keyoff 12
+		[keyon [C 0] 90] [keyon [C -1] 80] 36 keyoff 12
+	[keyon [C# 0] 90] [keyon [C# -1] 80] 36 keyoff 12
+		[keyon [A -1] 90] [keyon [A -2] 80] 36 keyoff 12
+	[keyon [D 0] 90] [keyon [D -1] 80] 48 keyoff 48
+
+	[keyon [G -1] 90] [keyon [G -2] 80] 48 keyoff 48
+
+	[keyon [A -1] 90] [keyon [A -2] 80] 48 keyoff 48
+
+	[keyon [C# 0] 90] [keyon [C# -1] 80] 36 keyoff 12
+		[keyon [A -1] 90] [keyon [A -2] 80] 36 keyoff 12
+	[keyon [D 0] 90] [keyon [D -1] 80] 18 keyoff 6
+	[keyon [A -1] 90] [keyon [A -2] 80] 18 keyoff 6
+	[keyon [D 0] 90] [keyon [D -1] 80] 36 keyoff 12
+]]
+
+[exit]
+

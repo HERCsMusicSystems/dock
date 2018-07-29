@@ -1,0 +1,47 @@
+
+[acco_largo [
+	20 [keyon [F 0] 80] 2 [keyon [A 0] 80] 2 [keyon [D 1] 90] 12 keyoff 8
+		[keyon [A 0] 80] 2 [keyon [D 1] 80] 2 [keyon [F 1] 90] 24 12 keyoff 12
+	20 [keyon [A 0] 80] 2 [keyon [D 1] 80] 2 [keyon [F 1] 90] 16 keyoff 2
+		[keyon [A 0] 80] 2 [keyon [D 1] 80] 2 [keyon [F 1] 80] 2 [keyon [A 1] 90] 24 12 keyoff 12
+	18 [keyon [Hb 0] 80] 2 [keyon [D 1] 80] 2 [keyon [E 1] 80] 2 [keyon [G 1] 90] 12 keyoff 6
+		[keyon [D 1] 80] 2 [keyon [E 1] 80] 2 [keyon [G 1] 80] 2 [keyon [Hb 1] 90] 24 12 keyoff 12
+	20 [keyon [A 0] 80] 2 [keyon [E 1] 80] 2 [keyon [G 1] 90] 24 keyoff
+		20 [keyon [A 0] 80] 2 [keyon [C# 1] 80] 2 [keyon [G 1] 90] 24 keyoff
+
+	20 [keyon [A 0] 80] 2 [keyon [D 1] 80] 2 [keyon [F 1] 90] 12 keyoff 8
+		[keyon [A 0] 80] 2 [keyon [D 1] 80] 2 [keyon [F 1] 90] 24 12 keyoff 12
+	20 [keyon [A 0] 80] 2 [keyon [D 1] 80] 2 [keyon [F 1] 90] 12 keyoff 6
+		[keyon [A 0] 80] 2 [keyon [D 1] 80] 2 [keyon [F 1] 80] 2 [keyon [A 1] 90] 24 12 keyoff 12
+	18 [keyon [Hb 0] 80] 2 [keyon [D 1] 80] 2 [keyon [E 1] 80] 2 [keyon [G 1] 90] 12 keyoff 6
+		[keyon [D 1] 80] 2 [keyon [E 1] 80] 2 [keyon [G 1] 80] 2 [keyon [Hb 1] 90] 24 12 keyoff 12
+	20 [keyon [A 0] 80] 2 [keyon [E 1] 80] 2 [keyon [G 1] 90] 24 keyoff
+		18 [keyon [A 0] 80] 2 [keyon [C# 1] 80] 2 [keyon [E 1] 80] 2 [keyon [G 1] 90] 24 keyoff
+
+	[keyon [A 0] 80] [keyon [D 1] 80] [keyon [F 1] 90] 24 keyoff
+	[keyon [G 0] 80] [keyon [A 0] 90] 24 keyoff
+	[keyon [F 0] 80] [keyon [A 0] 80] [keyon [D 1] 90] 24 keyoff 24
+
+	;;;;;;;;;;;;;;;;;;;;;
+
+	18 [keyon [Hb 0] 80] 2 [keyon [C 1] 80] 2 [keyon [E 1] 80] 2 [keyon [G 1] 90] 24 keyoff
+		18 [keyon [Hb 0] 80] 2 [keyon [C 1] 80] 2 [keyon [E 1] 80] 2 [keyon [G 1] 90] 24 keyoff
+	20 [keyon [A 0] 80] 2 [keyon [C 1] 80] 2 [keyon [F 1] 90] 24 keyoff
+		18 [keyon [A 0] 80] 2 [keyon [C 1] 80] 2 [keyon [F 1] 80] 2 [keyon [A 1] 90] 24 keyoff
+	20 [keyon [A 0] 80] 2 [keyon [E 1] 80] 2 [keyon [G 1] 90] 24 keyoff
+		18 [keyon [A 0] 80] 2 [keyon [C# 1] 80] 2 [keyon [E 1] 80] 2 [keyon [G 1] 90] 24 keyoff
+	20 [keyon [A 0] 80] 2 [keyon [D 1] 80] 2 [keyon [F 1] 90] 12 keyoff 6
+		[keyon [A 0] 80] 2 [keyon [D 1] 80] 2 [keyon [F 1] 80] 2 [keyon [A 1] 90] 36 keyoff 12
+	20 [keyon [D 1] 80] 2 [keyon [E 1] 80] 2 [keyon [G 1] 90] 14 keyoff 6
+		[keyon [D 1] 80] 2 [keyon [E 1] 80] 2 [keyon [Hb 1] 90] 36 keyoff 12
+	20 [keyon [A 0] 80] 2 [keyon [D 1] 80] 2 [keyon [F 1] 90] 14 keyoff 6
+		[keyon [D 1] 80] 2 [keyon [F 1] 80] 2 [keyon [A 1] 90] 36 keyoff 12
+	20 [keoyn [A 0] 80] 2 [keyon [E 1] 80] 2 [keyon [G 1] 90] 24 keyoff
+		20 [keyon [G 0] 80] 2 [keyon [A 0] 80] 2 [keyon [C# 1] 90] 24 keyoff
+	[keyon [F 0] 80] [keyon [A 0] 80] [keyon [D 1] 90] 24 keyoff
+	[keyon [G 0] 80] [keyon [A 0] 90] 24 keyoff
+	[keyon [F 0] 80] [keyon [A 0] 80] [keyon [D 1] 90] 24 keyoff 24
+]]
+
+[exit]
+
