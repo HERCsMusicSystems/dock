@@ -1,0 +1,60 @@
+
+[import "studio" "lunar" "setup" "phobos" "doctor"]
+
+[BuildPhobos 4] [Restore 0 "Phobos/czardas_bass.txt"]
+[BuildPhobos 4] [Restore 1 "Phobos/sine_organ_with_reverb.txt"]
+
+[batch "VonFormanEditor.prb"]
+
+[prompt "CZARDAS => "]
+
+[[ctrl : *command] [income_midi : *command]]
+
+[[hctrl keyon * 100 127] [CommanderHardwareAction]]
+[[hctrl keyon * 93 127] [seq2 "trigger" 256]]
+;[[hctrl keyon * 94 127] [times 24 4 *position] [drone rewind *position] [counter1 rewind *position] [show [rewind *position]] [seq "trigger" 128]]
+[[hctrl keyon * 95 127] [seq2 "trigger" 0]]
+[[hctrl : *command] [show hctrl *command]]
+
+[[FUNCTION_KEY 1] [seq2 "trigger" 0]]
+;[[FUNCTION_KEY 2] [times 24 4 *position] [drone rewind *position] [counter1 rewind *position] [show [rewind *position]] [seq "trigger" 128]]
+[[FUNCTION_KEY 3] [seq2 "trigger" 256]]
+
+
+;[multitrack seq [drone 0] [counter1 1]]
+;[multitrack backup [counter1 1]]
+
+[multitrack seq1 [bass1 0] [acco1 1]]
+[multitrack seq2 [bass2 0] [acco2 1] pro2]
+
+[pro2 [
+	[show 'BAR 1'] 672
+	[show 'Allegretto'] 624
+	[show 'Crescendo e rallentando a poco a poco'] [seq2 ritardando 1.03] 240
+	[show 'a tempo'] [seq2 atempo] 384
+	[show 'Molto piu vivo'] [seq2 accelerando 2 1.1] 384
+	[show 'Last bar'] [seq2 atempo] 48 48
+]]
+
+[batch "czardas/bass_seq_1.prb"]
+[batch "czardas/bass_seq_2.prb"]
+[batch "czardas/accordion_seq_1.prb"]
+[batch "czardas/accordion_seq_2.prb"]
+;[bass rewind 768]
+;[bass rewind 1536]
+
+[seq1 "speed" 120]
+[seq2 "speed" 160]
+
+
+[setup]
+
+[CommandCentre commander]
+
+[gtk_command]
+
+[TRY [close]]
+[TRY [CloseAllMoons]]
+
+[exit]
+

@@ -1,0 +1,75 @@
+
+[bass2 [
+	; FIRST PART
+	; C-DUR
+	[keyon [E 0] 90] [keyon [E -1] 80] 12 keyoff 12 [keyon [C 0] 80] [keyon [C -1] 70] 12 keyoff 12
+	[keyon [E 0] 90] [keyon [E -1] 80] 12 keyoff 12 [keyon [C 0] 80] [keyon [C -1] 70] 12 keyoff 12
+	; F-DUR
+	[keyon [F 0] 90] [keyon [F -1] 80] 12 keyoff 12 [keyon [C 0] 80] 12 keyoff 12
+	[keyon [A -1] 90] 12 keyoff 12 [keyon [F -1] 80] 12 keyoff 12
+	; A-DUR
+	[keyon [C# 0] 90] [keyon [C# -1] 80] 12 keyoff 12 [keyon [A -1] 80] [keyon [A -2] 70] 12 keyoff 12
+	[keyon [C# 0] 90] [keyon [C# -1] 80] 12 keyoff 12 [keyon [A -1] 80] [keyon [A -2] 70] 12 keyoff 12
+	; D-DUR
+	[keyon [D 0] 90] [keyon [D -1] 80] 12 keyoff 12 [keyon [A -1] 80] 12 keyoff 12
+	[keyon [D 0] 90] [keyon [D -1] 80] 12 keyoff 12 [keyon [A -1] 80] 12 keyoff 12
+	; E-MOLL
+	[keyon [G -1] 90] 12 keyoff 12 [keyon [E 0] 80] 12 keyoff 12
+	[keyon [G 0] 90] 12 keyoff 12 [keyon [E 0] 80] 12 keyoff 12
+	; D-MOLL
+	[keyon [A -1] 90] 12 keyoff 12 [keyon [D 0] 80] 12 keyoff 12
+	[keyon [F 0] 90] 12 keyoff 12 [keyon [A -1] 80] 12 keyoff 12
+	; A-DUR
+	[keyon [C# 0] 90] 12 keyoff 12 [keyon [A -1] 80] 12 keyoff 12
+	[keyon [E 0] 90] 12 keyoff 12 [keyon [A -1] 80] 12 keyoff 12
+	; FINALE
+	; D-MOLL
+	[keyon [D 0] 90] [keyon [D -1] 80] 12 keyoff 12 [keyon [A -1] 80] 12 keyoff 12
+	[keyon [D 0] 90] [keyon [D -1] 80] 12 keyoff 12 [keyon [A -1] 80] 12 keyoff 12
+	;;;;;;;;;;
+	[keyon [D 0] 90] [keyon [D -1] 80] 12 keyoff 12 [keyon [A -1] 80] 12 keyoff 12
+	[keyon [D 0] 90] [keyon [D -1] 80] 12 keyoff 12 [keyon [A -1] 80] 12 keyoff 12
+	[keyon [D 0] 90] [keyon [D -1] 80] 12 keyoff 12 [keyon [A -1] 80] 12 keyoff 12
+	[keyon [D 0] 90] [keyon [D -1] 80] 12 keyoff 12 [keyon [A -1] 80] 12 keyoff 12
+	[keyon [D 0] 90] [keyon [D -1] 80] 12 keyoff 12 [keyon [A -1] 80] 12 keyoff 12
+	[keyon [D 0] 90] [keyon [D -1] 80] 12 keyoff 12 [keyon [A -1] 80] 12 keyoff 12
+	; E-MOLL
+	[keyon [G -1] 90] 12 keyoff 12 [keyon [H -1] 80] 12 keyoff 12
+	[keyon [G 0] 90] 12 keyoff 12 [keyon [G -1] 80] 12 keyoff 12
+	[keyon [E 0] 90] 12 keyoff 12 [keyon [G -1] 80] 12 keyoff 12
+	[keyon [H -1] 90] 12 keyoff 12 [keyon [E 0] 80] 12 keyoff 12
+	; D-DUR
+	[keyon [A -1] 90] 12 keyoff 12 [keyon [D 0] 80] 12 keyoff 12
+	[keyon [F# 0] 90] 12 keyoff 12 [keyon [A -1] 80] 12 keyoff 12
+	; E-DUR
+	[keyon [H -1] 90] 12 keyoff 12 [keyon [G# -1] 80] 12 keyoff 12
+	[keyon [E 0] 90] 12 keyoff 12 [keyon [E -1] 80] 12 keyoff 12
+	; A-DUR7
+	[keyon [A -1] 90] [keyon [A -2] 80] 12 keyoff 12 [keyon [G 0] 80] [keyon [G -1] 70] 12 keyoff 12
+	[keyon [E 0] 90] [keyon [E -1] 80] 12 keyoff 12 [keyon [A -1] 80] [keyon [A -2] 70] 12 keyoff 12
+	;;;;;;;;;;;;;;;;;;;;;
+	; D-DUR
+	[keyon [D 0] 90] [keyon [D -1] 80] 12 keyoff 12 [keyon [A -1] 80] 12 keyoff 12
+	[keyon [D 0] 90] [keyon [D -1] 80] 12 keyoff 12 [keyon [A -1] 80] 12 keyoff 12
+	[keyon [D 0] 90] [keyon [D -1] 80] 12 keyoff 12 [keyon [A -1] 80] 12 keyoff 12
+	[keyon [D 0] 90] [keyon [D -1] 80] 12 keyoff 12 [keyon [A -1] 80] 12 keyoff 12
+	[keyon [D 0] 90] [keyon [D -1] 80] 12 keyoff 12 [keyon [A -1] 80] 12 keyoff 12
+	[keyon [D 0] 90] [keyon [D -1] 80] 12 keyoff 12 [keyon [A -1] 80] 12 keyoff 12
+	; E-MOLL
+	[keyon [G -1] 90] 12 keyoff 12 [keyon [H -1] 80] 12 keyoff 12
+	[keyon [E 0] 90] 12 keyoff 12 [keyon [G 0] 80] 12 keyoff 12
+	;;;;;;;;;; MOLTO PIU VIVO ;;;;;;;;;;;;;;;;;
+	[keyon [E 0] 90] 12 keyoff 12 [keyon [H -1] 80] 12 keyoff 12
+	[keyon [E -1] 90] 12 keyoff 12 [keyon [E 0] 80] 12 keyoff 12
+	[keyon [A -1] 90] 12 keyoff 12 [keyon [D 0] 80] 12 keyoff 12
+	[keyon [F# 0] 90] 12 keyoff 12 [keyon [A -1] 80] 12 keyoff 12
+	[keyon [G -1] 90] 12 keyoff 12 [keyon [E -1] 80] 12 keyoff 12
+	[keyon [C# -1] 90] 12 keyoff 12 [keyon [A -1] 80] [keyon [A -2] 70] 12 keyoff 12
+	[keyon [D -1] 90] 12 keyoff 12 24
+	[keyon [A -1] 90] [keyon [A -2] 80] 12 keyoff 12 24
+	[keyon [D 0] 90] [keyon [A -1] 80] [keyon [D -1] 90] 12 keyoff 12 24
+	48
+]]
+
+[exit]
+

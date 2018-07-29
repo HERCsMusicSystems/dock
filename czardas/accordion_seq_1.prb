@@ -1,0 +1,183 @@
+
+[acco1 [
+	; D-MOLL
+	12 [keyon [A 0] 80] [keyon [D 1] 80] [keyon [F 1] 80] 12 keyoff
+	12 [keyon [A 0] 80] [keyon [D 1] 80] [keyon [F 1] 80] 12 keyoff
+	12 [keyon [A 0] 80] [keyon [D 1] 80] [keyon [F 1] 80] 12 keyoff
+	12 [keyon [A 0] 80] [keyon [D 1] 80] [keyon [F 1] 80] 12 keyoff
+	12 [keyon [A 0] 80] [keyon [D 1] 80] [keyon [F 1] 80] 12 keyoff
+	12 [keyon [A 0] 80] [keyon [D 1] 80] [keyon [F 1] 80] 12 keyoff
+	12 [keyon [A 0] 80] [keyon [D 1] 80] [keyon [F 1] 80] 12 keyoff
+	12 [keyon [A 0] 80] [keyon [D 1] 80] [keyon [F 1] 80] 12 keyoff
+	12 [keyon [A 0] 80] [keyon [D 1] 80] [keyon [F 1] 80] 12 keyoff
+	12 [keyon [A 0] 80] [keyon [D 1] 80] [keyon [F 1] 80] 12 keyoff
+	12 [keyon [A 0] 80] [keyon [D 1] 80] [keyon [F 1] 80] 12 keyoff
+	12 [keyon [A 0] 80] [keyon [D 1] 80] [keyon [F 1] 80] 12 keyoff
+	; E-MOLL7
+	12 [keyon [Hb 0] 80] [keyon [D 1] 80] [keyon [E 1] 80] [keyon [G 1] 80] 12 keyoff
+	12 [keyon [Hb 0] 80] [keyon [D 1] 80] [keyon [E 1] 80] [keyon [G 1] 80] 12 keyoff
+	12 [keyon [Hb 0] 80] [keyon [D 1] 80] [keyon [E 1] 80] [keyon [G 1] 80] 12 keyoff
+	12 [keyon [Hb 0] 80] [keyon [D 1] 80] [keyon [E 1] 80] [keyon [G 1] 80] 12 keyoff
+	12 [keyon [Hb 0] 80] [keyon [D 1] 80] [keyon [E 1] 80] [keyon [G 1] 80] 12 keyoff
+	12 [keyon [Hb 0] 80] [keyon [D 1] 80] [keyon [E 1] 80] [keyon [G 1] 80] 12 keyoff
+	12 [keyon [Hb 0] 80] [keyon [D 1] 80] [keyon [E 1] 80] [keyon [G 1] 80] 12 keyoff
+	12 [keyon [Hb 0] 80] [keyon [D 1] 80] [keyon [E 1] 80] [keyon [G 1] 80] 12 keyoff
+	; D-MOLL
+	12 [keyon [A 0] 80] [keyon [D 1] 80] [keyon [F 1] 80] 12 keyoff
+	12 [keyon [A 0] 80] [keyon [D 1] 80] [keyon [F 1] 80] 12 keyoff
+	12 [keyon [A 0] 80] [keyon [D 1] 80] [keyon [F 1] 80] 12 keyoff
+	12 [keyon [A 0] 80] [keyon [D 1] 80] [keyon [F 1] 80] 12 keyoff
+	; A-DUR
+	12 [keyon [A 0] 80] [keyon [E 1] 80] [keyon [G 1] 80] 12 keyoff
+	12 [keyon [A 0] 80] [keyon [C# 1] 80] [keyon [E 1] 80] [keyon [G 1] 80] 12 keyoff
+	12 [keyon [A 0] 80] [keyon [C# 1] 80] [keyon [E 1] 80] [keyon [G 1] 80] 12 keyoff
+	12 [keyon [A 0] 80] [keyon [C# 1] 80] [keyon [G 1] 80] 12 keyoff
+	; D-MOLL
+	12 [keyon [A 0] 80] [keyon [D 1] 80] [keyon [F 1] 80] 12 keyoff
+	12 [keyon [A 0] 80] [keyon [C# 1] 80] [keyon [G 1] 80] 12 keyoff
+	12 [keyon [A 0] 80] [keyon [D 1] 80] [keyon [F 1] 80] 12 keyoff
+	12 [keyon [A 0] 80] [keyon [D 1] 80] [keyon [F 1] 80] 12 keyoff
+	; REPEAT
+	; D-MOLL
+	12 [keyon [A 0] 80] [keyon [D 1] 80] [keyon [F 1] 80] 12 keyoff
+	12 [keyon [A 0] 80] [keyon [D 1] 80] [keyon [F 1] 80] 12 keyoff
+	12 [keyon [A 0] 80] [keyon [D 1] 80] [keyon [F 1] 80] 12 keyoff
+	12 [keyon [A 0] 80] [keyon [D 1] 80] [keyon [F 1] 80] 12 keyoff
+	12 [keyon [A 0] 80] [keyon [D 1] 80] [keyon [F 1] 80] 12 keyoff
+	12 [keyon [A 0] 80] [keyon [D 1] 80] [keyon [F 1] 80] 12 keyoff
+	12 [keyon [A 0] 80] [keyon [D 1] 80] [keyon [F 1] 80] 12 keyoff
+	12 [keyon [A 0] 80] [keyon [D 1] 80] [keyon [F 1] 80] 12 keyoff
+	12 [keyon [A 0] 80] [keyon [D 1] 80] [keyon [F 1] 80] 12 keyoff
+	12 [keyon [A 0] 80] [keyon [D 1] 80] [keyon [F 1] 80] 12 keyoff
+	12 [keyon [A 0] 80] [keyon [D 1] 80] [keyon [F 1] 80] 12 keyoff
+	12 [keyon [A 0] 80] [keyon [D 1] 80] [keyon [F 1] 80] 12 keyoff
+	; E-MOLL7
+	12 [keyon [Hb 0] 80] [keyon [D 1] 80] [keyon [E 1] 80] [keyon [G 1] 80] 12 keyoff
+	12 [keyon [Hb 0] 80] [keyon [D 1] 80] [keyon [E 1] 80] [keyon [G 1] 80] 12 keyoff
+	12 [keyon [Hb 0] 80] [keyon [D 1] 80] [keyon [E 1] 80] [keyon [G 1] 80] 12 keyoff
+	12 [keyon [Hb 0] 80] [keyon [D 1] 80] [keyon [E 1] 80] [keyon [G 1] 80] 12 keyoff
+	12 [keyon [Hb 0] 80] [keyon [D 1] 80] [keyon [E 1] 80] [keyon [G 1] 80] 12 keyoff
+	12 [keyon [Hb 0] 80] [keyon [D 1] 80] [keyon [E 1] 80] [keyon [G 1] 80] 12 keyoff
+	12 [keyon [Hb 0] 80] [keyon [D 1] 80] [keyon [E 1] 80] [keyon [G 1] 80] 12 keyoff
+	12 [keyon [Hb 0] 80] [keyon [D 1] 80] [keyon [E 1] 80] [keyon [G 1] 80] 12 keyoff
+	; D-MOLL
+	12 [keyon [A 0] 80] [keyon [D 1] 80] [keyon [F 1] 80] 12 keyoff
+	12 [keyon [A 0] 80] [keyon [D 1] 80] [keyon [F 1] 80] 12 keyoff
+	12 [keyon [A 0] 80] [keyon [D 1] 80] [keyon [F 1] 80] 12 keyoff
+	12 [keyon [A 0] 80] [keyon [D 1] 80] [keyon [F 1] 80] 12 keyoff
+	; A-DUR
+	12 [keyon [A 0] 80] [keyon [E 1] 80] [keyon [G 1] 80] 12 keyoff
+	12 [keyon [A 0] 80] [keyon [C# 1] 80] [keyon [E 1] 80] [keyon [G 1] 80] 12 keyoff
+	12 [keyon [A 0] 80] [keyon [C# 1] 80] [keyon [E 1] 80] [keyon [G 1] 80] 12 keyoff
+	12 [keyon [A 0] 80] [keyon [C# 1] 80] [keyon [G 1] 80] 12 keyoff
+	; D-MOLL
+	12 [keyon [A 0] 80] [keyon [D 1] 80] [keyon [F 1] 80] 12 keyoff
+	12 [keyon [A 0] 80] [keyon [C# 1] 80] [keyon [G 1] 80] 12 keyoff
+	12 [keyon [A 0] 80] [keyon [D 1] 80] [keyon [F 1] 80] 12 keyoff
+	12 [keyon [A 0] 80] [keyon [D 1] 80] [keyon [F 1] 80] 12 keyoff
+	; SECOND PART
+	; C-DUR7
+	12 [keyon [Hb 0] 80] [keyon [C 1] 80] [keyon [G 1] 80] 12 keyoff
+	12 [keyon [Hb 0] 80] [keyon [C 1] 80] [keyon [G 1] 80] 12 keyoff
+	12 [keyon [Hb 0] 80] [keyon [C 1] 80] [keyon [G 1] 80] 12 keyoff
+	12 [keyon [Hb 0] 80] [keyon [C 1] 80] [keyon [G 1] 80] 12 keyoff
+	; F-DUR
+	12 [keyon [A 0] 80] [keyon [C 1] 80] [keyon [F 1] 80] 12 keyoff
+	12 [keyon [A 0] 80] [keyon [C 1] 80] [keyon [F 1] 80] 12 keyoff
+	12 [keyon [A 0] 80] [keyon [C 1] 80] [keyon [F 1] 80] 12 keyoff
+	12 [keyon [A 0] 80] [keyon [C 1] 80] [keyon [F 1] 80] 12 keyoff
+	; A-DUR
+	12 [keyon [A 0] 80] [keyon [E 1] 80] [keyon [G 1] 80] 12 keyoff
+	12 [keyon [A 0] 80] [keyon [C# 1] 80] [keyon [G 1] 80] 12 keyoff
+	12 [keyon [A 0] 80] [keyon [E 1] 80] [keyon [G 1] 80] 12 keyoff
+	12 [keyon [A 0] 80] [keyon [C# 1] 80] [keyon [G 1] 80] 12 keyoff
+	; D-MOLL
+	12 [keyon [A 0] 80] [keyon [D 1] 80] [keyon [F 1] 80] 12 keyoff
+	12 [keyon [A 0] 80] [keyon [D 1] 80] [keyon [F 1] 80] 12 keyoff
+	12 [keyon [A 0] 80] [keyon [D 1] 80] [keyon [F 1] 80] 12 keyoff
+	12 [keyon [A 0] 80] [keyon [D 1] 80] [keyon [F 1] 80] 12 keyoff
+	; E-MOLL7
+	12 [keyon [Hb 0] 80] [keyon [D 1] 80] [keyon [E 1] 80] [keyon [G 1] 80] 12 keyoff
+	12 [keyon [Hb 0] 80] [keyon [D 1] 80] [keyon [E 1] 80] [keyon [G 1] 80] 12 keyoff
+	12 [keyon [Hb 0] 80] [keyon [D 1] 80] [keyon [E 1] 80] [keyon [G 1] 80] 12 keyoff
+	12 [keyon [Hb 0] 80] [keyon [D 1] 80] [keyon [E 1] 80] [keyon [G 1] 80] 12 keyoff
+	; D-MOLL
+	12 [keyon [A 0] 80] [keyon [D 1] 80] [keyon [F 1] 80] 12 keyoff
+	12 [keyon [A 0] 80] [keyon [D 1] 80] [keyon [F 1] 80] 12 keyoff
+	12 [keyon [A 0] 80] [keyon [D 1] 80] [keyon [F 1] 80] 12 keyoff
+	12 [keyon [A 0] 80] [keyon [D 1] 80] [keyon [F 1] 80] 12 keyoff
+	; A-DUR
+	12 [keyon [A 0] 80] [keyon [E 1] 80] [keyon [G 1] 80] 12 keyoff
+	12 [keyon [A 0] 80] [keyon [C# 1] 80] [keyon [G 1] 80] 12 keyoff
+	12 [keyon [A 0] 80] [keyon [C# 1] 80] [keyon [G 1] 80] 12 keyoff
+	12 [keyon [A 0] 80] [keyon [C# 1] 80] [keyon [G 1] 80] 12 keyoff
+	; D-MOLL
+	12 [keyon [A 0] 80] [keyon [D 1] 80] [keyon [F 1] 80] 12 keyoff
+	12 [keyon [G 1] 80] [keyon [A 1] 80] [keyon [C# 2] 80] 12 keyoff
+	[keyon [F 1] 80] [keyon [A 1] 80] [keyon [D 2] 80] 12 keyoff 12 24
+	; SECOND REPEAT
+	; C-DUR7
+	12 [keyon [Hb 0] 80] [keyon [C 1] 80] [keyon [G 1] 80] 12 keyoff
+	12 [keyon [Hb 0] 80] [keyon [C 1] 80] [keyon [G 1] 80] 12 keyoff
+	12 [keyon [Hb 0] 80] [keyon [C 1] 80] [keyon [G 1] 80] 12 keyoff
+	12 [keyon [Hb 0] 80] [keyon [C 1] 80] [keyon [G 1] 80] 12 keyoff
+	; F-DUR
+	12 [keyon [A 0] 80] [keyon [C 1] 80] [keyon [F 1] 80] 12 keyoff
+	12 [keyon [A 0] 80] [keyon [C 1] 80] [keyon [F 1] 80] 12 keyoff
+	12 [keyon [A 0] 80] [keyon [C 1] 80] [keyon [F 1] 80] 12 keyoff
+	12 [keyon [A 0] 80] [keyon [C 1] 80] [keyon [F 1] 80] 12 keyoff
+	; A-DUR
+	12 [keyon [A 0] 80] [keyon [E 1] 80] [keyon [G 1] 80] 12 keyoff
+	12 [keyon [A 0] 80] [keyon [C# 1] 80] [keyon [G 1] 80] 12 keyoff
+	12 [keyon [A 0] 80] [keyon [E 1] 80] [keyon [G 1] 80] 12 keyoff
+	12 [keyon [A 0] 80] [keyon [C# 1] 80] [keyon [G 1] 80] 12 keyoff
+	; D-MOLL
+	12 [keyon [A 0] 80] [keyon [D 1] 80] [keyon [F 1] 80] 12 keyoff
+	12 [keyon [A 0] 80] [keyon [D 1] 80] [keyon [F 1] 80] 12 keyoff
+	12 [keyon [A 0] 80] [keyon [D 1] 80] [keyon [F 1] 80] 12 keyoff
+	12 [keyon [A 0] 80] [keyon [D 1] 80] [keyon [F 1] 80] 12 keyoff
+	; E-MOLL7
+	12 [keyon [Hb 0] 80] [keyon [D 1] 80] [keyon [E 1] 80] [keyon [G 1] 80] 12 keyoff
+	12 [keyon [Hb 0] 80] [keyon [D 1] 80] [keyon [E 1] 80] [keyon [G 1] 80] 12 keyoff
+	12 [keyon [Hb 0] 80] [keyon [D 1] 80] [keyon [E 1] 80] [keyon [G 1] 80] 12 keyoff
+	12 [keyon [Hb 0] 80] [keyon [D 1] 80] [keyon [E 1] 80] [keyon [G 1] 80] 12 keyoff
+	; D-MOLL
+	12 [keyon [A 0] 80] [keyon [D 1] 80] [keyon [F 1] 80] 12 keyoff
+	12 [keyon [A 0] 80] [keyon [D 1] 80] [keyon [F 1] 80] 12 keyoff
+	12 [keyon [A 0] 80] [keyon [D 1] 80] [keyon [F 1] 80] 12 keyoff
+	12 [keyon [A 0] 80] [keyon [D 1] 80] [keyon [F 1] 80] 12 keyoff
+	; A-DUR
+	12 [keyon [A 0] 80] [keyon [E 1] 80] [keyon [G 1] 80] 12 keyoff
+	12 [keyon [A 0] 80] [keyon [C# 1] 80] [keyon [G 1] 80] 12 keyoff
+	12 [keyon [A 0] 80] [keyon [C# 1] 80] [keyon [G 1] 80] 12 keyoff
+	12 [keyon [A 0] 80] [keyon [C# 1] 80] [keyon [G 1] 80] 12 keyoff
+	; D-MOLL
+	12 [keyon [A 0] 80] [keyon [D 1] 80] [keyon [F 1] 80] 12 keyoff
+	12 [keyon [G 1] 80] [keyon [A 1] 80] [keyon [C# 2] 80] 12 keyoff
+	[keyon [F 1] 80] [keyon [A 1] 80] [keyon [D 2] 80] 12 keyoff 12 24
+]]
+
+[exit]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
