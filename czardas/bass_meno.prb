@@ -1,0 +1,27 @@
+[bass_meno [
+	[keyon [D 0] 90] [keyon [D -1] 80] 24 keyoff 24
+	[keyon [F# 0] 90] [keyon [F# -1] 80] 24 keyoff 24
+	[keyon [G 0] 90] [keyon [G -1] 80] 24 keyoff 24
+	[keyon [E 0] 90] [keyon [E -1] 80] 24 keyoff 24
+	[keyon [C# 0] 90] [keyon [C# -1] 80] 24 keyoff 24
+	[keyon [A -1] 90] [keyon [A -2] 80] 24 keyoff 24
+	[keyon [D 0] 90] [keyon [D -1] 80] 24 keyoff 24
+	[keyon [D 0] 90] [keyon [D -1] 80] 24 keyoff 12
+		[keyon [A -1] 90] [keyon [A -2] 80] 10 keyoff 2
+	
+	[keyon [D 0] 90] [keyon [D -1] 80] 24 keyoff 24
+	[keyon [F# 0] 90] [keyon [F# -1] 80] 24 keyoff 24
+	[keyon [G 0] 90] [keyon [G -1] 80] 24 keyoff 24
+	[keyon [E 0] 90] [keyon [E -1] 80] 24 keyoff 24
+	[keyon [A -1] 90] [keyon [A -2] 80] 24 keyoff 24
+	[keyon [A -1] 90] [keyon [A -2] 80] 24 keyoff 24
+	[keyon [D 0] 90] [keyon [D -1] 80] 24 keyoff 12
+		[keyon [A -1] 90] [keyon [A -2] 80] 10 keyoff 2
+	[keyon [D 0] 90] [keyon [D -1] 80] 24 keyoff 24
+
+	96 96 96 96
+	96 96 96 96
+]]
+
+[exit]
+
