@@ -16,23 +16,63 @@
 [[hctrl keyon * 95 127] [meno "trigger" 0]]
 [[hctrl : *command] [show hctrl *command]]
 
-[[FUNCTION_KEY 1] [meno "trigger" 0]]
+[[FUNCTION_KEY 1] [meno "trigger" 0] [largo "trigger" 0] [seq1 "trigger" 0] [seq2 "trigger" 0]]
 ;[[FUNCTION_KEY 2] [times 24 4 *position] [drone rewind *position] [counter1 rewind *position] [show [rewind *position]] [seq "trigger" 128]]
 [[FUNCTION_KEY 3] [meno "trigger" 256]]
 
+[[FUNCTION_KEY 5] [largo "trigger" 128]]
+[[FUNCTION_KEY 6] [seq1 "trigger" 128]]
+[[FUNCTION_KEY 7] [meno "trigger" 128]]
+[[FUNCTION_KEY 8] [seq2 "trigger" 128]]
 
-[multitrack largo [bass_largo 0] [acco_largo 1]]
+
+[multitrack largo [bass_largo 0] [acco_largo 1] pro_largo]
 	[batch "czardas/bass_largo.prb"] [batch "czardas/accordion_largo.prb"]
 	[largo "speed" 70]
-[multitrack seq1 [bass1 0] [acco1 1]]
+[multitrack seq1 [bass1 0] [acco1 1] pro1]
 	[batch "czardas/bass_seq_1.prb"] [batch "czardas/accordion_seq_1.prb"]
 	[seq1 "speed" 120]
-[multitrack meno [bass_meno 0] [acco_meno 1]]
+[multitrack meno [bass_meno 0] [acco_meno 1] pro_meno]
 	[batch "czardas/bass_meno.prb"] [batch "czardas/accordion_meno.prb"]
 	[meno "speed" 70]
 [multitrack seq2 [bass2 0] [acco2 1] pro2]
 	[batch "czardas/bass_seq_2.prb"] [batch "czardas/accordion_seq_2.prb"]
-	[seq2 "speed"160]
+	;[seq2 "speed" 160]
+	[seq2 "speed" 130]
+
+[pro_largo [
+	[show "LARGO"]
+	96
+	768
+	[show "LARGO FIRST REPEAT"]
+	768
+	[show "LARGO SECOND REPEAT"]
+	768
+	[show "LARGO END"]
+	[seq1 "trigger" 128] [largo "trigger" 0]
+]]
+
+[pro1 [
+	[show "PART I REPEAT 1"]
+	768
+	[show "PART I REPEAT 2"]
+	768
+	[show "PART II REPEAT 1"]
+	768
+	[show "PART II REPEAT 2"]
+	768
+	[show "END"]
+	[meno "trigger" 128] [seq1 "trigger" 0]
+]]
+
+[pro_meno [
+	[show "MENO I"]
+	768
+	[show "MENO II"]
+	768
+	[show "END"]
+	[seq2 "trigger" 128] [meno "trigger" 0]
+]]
 
 [pro2 [
 	[show 'BAR 1'] 672
@@ -41,6 +81,7 @@
 	[show 'a tempo'] [seq2 atempo] 384
 	[show 'Molto piu vivo'] [seq2 accelerando 2 1.1] 384
 	[show 'Last bar'] [seq2 atempo] 48 48
+	[seq2 "trigger" 0]
 ]]
 
 
