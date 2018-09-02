@@ -7,6 +7,7 @@
 	[Restore 1 "Phobos/vocalise_drone.txt"]
 
 [wave sea "Doctor/fale_loop.wav"] [BuildDoctor 1 sea]
+[income_midi control 2 73 76] [income_midi control 2 72 76] [income_midi keyon 2 64 100]
 
 [batch "VonFormanEditor.prb"]
 
@@ -16,23 +17,35 @@
 
 [[hctrl keyon * 100 127] [CommanderHardwareAction]]
 [[hctrl keyon * 93 127] [seq "trigger" 256]]
-[[hctrl keyon * 94 127] [times 24 4 *position] [drone rewind *position] [counter1 rewind *position] [show [rewind *position]] [seq "trigger" 128]]
+[[hctrl keyon * 94 127] [times 24 66 *position] [drone rewind *position] [counter1 rewind *position] [show [rewind *position]] [seq "trigger" 128]]
 [[hctrl keyon * 95 127] [seq "trigger" 0]]
 [[hctrl : *command] [show hctrl *command]]
 
 [[FUNCTION_KEY 1] [seq "trigger" 0]]
-[[FUNCTION_KEY 2] [times 24 4 *position] [drone rewind *position] [counter1 rewind *position] [show [rewind *position]] [seq "trigger" 128]]
+[[FUNCTION_KEY 2] [times 12 133 *position]
+	[drone rewind *position] [harmo rewind *position] [counter1 rewind *position] [show [rewind *position]]
+	[seq "trigger" 128]
+]
 [[FUNCTION_KEY 3] [seq "trigger" 256]]
+;[[FUNCTION_KEY 5] [harmo11 "trigger" 128]]
+;[[FUNCTION_KEY 6] [harmo11 "trigger" 0]]
+[[FUNCTION_KEY *x] [show *x]]
 
 
-[multitrack seq [drone 0] [counter1 1]]
+
+[multitrack seq [drone 0] [harmo 1]]
+[multitrack counter11 [counter1 1]]
+;[multitrack harmo11 [harmo 1]]
+;[multitrack seq [drone 0] [counter1 1]]
 ;[multitrack backup [counter1 1]]
 
 [seq "speed" 38]
+;[harmo11 "speed" 38]
 
 
 [batch "vocalise/drone_seq.prb"]
 [batch "vocalise/counter_1_seq.prb"]
+[batch "vocalise/harmo.prb"]
 
 
 [setup]

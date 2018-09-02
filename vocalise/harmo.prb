@@ -1,0 +1,33 @@
+
+[harmo [
+	96
+	96 48 96 96 96 96  12
+	96 96 96  96 96 96 96 96 96
+	96 48
+	; ENTRY 1
+	24 12
+	[keyon [H 2] 70] [keyon [G 2] 60] 6 keyoff
+	[keyon [A 2] 60] [keyon [F# 2] 50] 6 keyoff
+	[keyon [H 2] 70] [keyon [G 2] 60] 6 keyoff 6
+	
+	[keyon [A 2] 70] [keyon [F# 2] 50] 6 keyoff
+	[keyon [G 2] 60] [keyon [E 2] 50] 6 keyoff
+	[keyon [A 2] 60] [keyon [F 2] 60] 6 keyoff ;[keyoff [F 2]]
+						1 [keyon [E 2] 50] 6 keyoff
+	2 [keyon [G 2] 60]	[keyon [D# 2] 40] 6 keyoff; [keyoff [G 2]]
+	3 [keyon [A 2] 50]					6 keyoff
+	6
+	;;;;;
+	[keyon [G 2] 40] [keyon [H 2] 70] 12 keyoff 12 24 48 48 96 96 96 96  12
+	96 96 96  96 96 96 96 96 96
+	96 48 96
+	[keyon [H 2] 100] 12 keyoff
+	1024
+]]
+
+
+
+
+
+[exit]
+
