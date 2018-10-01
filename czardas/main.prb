@@ -20,7 +20,8 @@
 ;[[FUNCTION_KEY 2] [times 24 4 *position] [drone rewind *position] [counter1 rewind *position] [show [rewind *position]] [seq "trigger" 128]]
 [[FUNCTION_KEY 3] [meno "trigger" 256]]
 
-[[FUNCTION_KEY 5] [largo "trigger" 128]]
+[[FUNCTION_KEY 5] [wait 3000] [largo "trigger" 128]]
+[[FUNCTION_KEY 5] [bass_largo rewind 768] [acco_largo rewind 768] [pro_largo rewind 768] [largo "trigger" 128]]
 [[FUNCTION_KEY 6] [seq1 "trigger" 128]]
 [[FUNCTION_KEY 7] [meno "trigger" 128]]
 [[FUNCTION_KEY 8] [seq2 "trigger" 128]]
@@ -42,12 +43,32 @@
 
 [pro_largo [
 	[show "LARGO"]
-	96
-	768
+	48 24 [largo ritardando 3] 24
+	[show 'second bar'] [largo atempo]
+	96 96 96
+		48 24 [largo ritardando 5] 24 [largo atempo]
+	96 96 96
+		[largo ritardando 2 1.2] 96 [largo atempo]
 	[show "LARGO FIRST REPEAT"]
-	768
+	96
+		96 ; 48 24 [largo ritardando 5] 24 [largo atempo]
+	96
+		48 24 [largo ritardando 5] 24 [largo atempo]
+	[show 'now']
+	48 [largo ritardando 2 2.2] 48 [largo atempo]
+	48 [largo ritardando 2 2.2] 48 [largo atempo]
+	96
+		[largo ritardando 2 1.2] 96 [largo atempo]
 	[show "LARGO SECOND REPEAT"]
-	768
+	96
+		96 ; 48 24 [largo ritardando 5] 24 [largo atempo]
+	96
+		48 24 [largo ritardando 5] 24 [largo atempo]
+	[show 'now']
+	48 [largo ritardando 2 2.2] 48 [largo atempo]
+	48 [largo ritardando 2 2.2] 48 [largo atempo]
+	96
+		[largo ritardando 2 1.2] 96 [largo atempo]
 	[show "LARGO END"]
 	[seq1 "trigger" 128] [largo "trigger" 0]
 ]]
