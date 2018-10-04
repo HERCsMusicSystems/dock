@@ -4,6 +4,9 @@
 [BuildPhobos 4] [Restore 0 "Phobos/czardas_bass.txt"]
 [BuildPhobos 6] [Restore 1 "Phobos/sine_organ_with_reverb.txt"]
 
+[wave las "Doctor/las_loop.wav"] [BuildDoctor 1 las]
+[income_midi control 2 73 76] [income_midi control 2 72 76] [income_midi keyon 2 64 100]
+
 [batch "VonFormanEditor.prb"]
 
 [prompt "CZARDAS => "]
@@ -20,7 +23,7 @@
 ;[[FUNCTION_KEY 2] [times 24 4 *position] [drone rewind *position] [counter1 rewind *position] [show [rewind *position]] [seq "trigger" 128]]
 [[FUNCTION_KEY 3] [meno "trigger" 256]]
 
-[[FUNCTION_KEY 5] [wait 3000] [largo "trigger" 128]]
+[[FUNCTION_KEY 5] [largo "trigger" 128]]
 [[FUNCTION_KEY 5] [bass_largo rewind 768] [acco_largo rewind 768] [pro_largo rewind 768] [largo "trigger" 128]]
 [[FUNCTION_KEY 6] [seq1 "trigger" 128]]
 [[FUNCTION_KEY 7] [meno "trigger" 128]]
