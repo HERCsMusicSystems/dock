@@ -1,0 +1,21 @@
+
+[import 'studio' 'lunar' 'setup' 'astronaut']
+
+[BuildAstronaut *** line]
+
+[prompt 'Astronaut => ']
+
+[CommandCentre commander]
+
+;[TRY [midi mdi '/dev/ttyACM0' midi_monitor]]
+[setup]
+
+[[FUNCTION_KEY 5] [CommanderHardwareAction] [TRY [ConnectStereo line reactor]]]
+[[FUNCTION_KEY : *x] [show *x]]
+
+[gtk_command]
+
+[CloseAllMoons]
+
+[exit]
+
