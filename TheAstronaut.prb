@@ -1,14 +1,33 @@
 
-[import 'studio' 'lunar' 'setup' 'astronaut']
+[import 'studio' 'lunar' 'astronaut']
 
 [BuildAstronaut *** line]
+
+[Restore 0 "Astronaut/a1.txt"]
 
 [prompt 'Astronaut => ']
 
 [CommandCentre commander]
 
-;[TRY [midi mdi '/dev/ttyACM0' midi_monitor]]
-[setup]
+[AUDIO_HARDWARE_SETTINGS [jack]]
+
+
+[[ctrl control 0 58 *] [mdi control 0 58 100] [mdi control 0 59 0] [mdi control 0 60 0] [mdi control 0 61 0] [mdi control 0 62 0] [mdi control 0 63 0]]
+[[ctrl control 0 59 *] [mdi control 0 58 0] [mdi control 0 59 100] [mdi control 0 60 0] [mdi control 0 61 0] [mdi control 0 62 0] [mdi control 0 63 0]]
+[[ctrl control 0 60 *] [mdi control 0 58 0] [mdi control 0 59 0] [mdi control 0 60 100] [mdi control 0 61 0] [mdi control 0 62 0] [mdi control 0 63 0]]
+[[ctrl control 0 61 *] [mdi control 0 58 0] [mdi control 0 59 0] [mdi control 0 60 0] [mdi control 0 61 100] [mdi control 0 62 0] [mdi control 0 63 0]]
+[[ctrl control 0 62 *] [mdi control 0 58 0] [mdi control 0 59 0] [mdi control 0 60 0] [mdi control 0 61 0] [mdi control 0 62 100] [mdi control 0 63 0]]
+[[ctrl control 0 63 *] [mdi control 0 58 0] [mdi control 0 59 0] [mdi control 0 60 0] [mdi control 0 61 0] [mdi control 0 62 0] [mdi control 0 63 100]]
+
+[[ctrl control 0 64 127] [income_midi control 0 13 111] fail]
+[[ctrl control 0 64 0] [income_midi control 0 13 64] fail]
+[[ctrl control 0 64 *] [mdi control 0 58 0] [mdi control 0 59 0] [mdi control 0 60 0] [mdi control 0 61 0] [mdi control 0 62 0] [mdi control 0 63 0]]
+
+
+[[ctrl : *x] [show *x]]
+
+[TRY [midi mdi '/dev/ttyACM0' ctrl]]
+;[setup]
 
 [[FUNCTION_KEY 5] [CommanderHardwareAction] [TRY [ConnectStereo line reactor]]]
 [[FUNCTION_KEY : *x] [show *x]]
